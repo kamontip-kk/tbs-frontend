@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "บริการส่งข้อความไปยังต่างประเทศ | ThaiBulkSMS",
+    "description": "บริการส่งข้อความไปยังต่างประเทศได้มากกว่า 200 ประเทศทั่วโลก สามารถส่งได้ทุกเครือข่าย พร้อมให้คำปรึกษาโดยผู้เชี่ยวชาญตลอด 24/7",
+    "keywords": ""
+  },
+
+  "HeroSection": {
+    "<span>Send SMS and OTP messages</span><br/> globally at valuable prices.": "<span>ส่ง SMS และ OTP</span><br />ได้ทั่วโลก ด้วยราคาที่คุ้มค่า"
+  },
+
+  "SmsSection": {
+    "SMS messages are guaranteed to be sent around the world.<br /> Rapid sending and follow-up results,": "การันตีส่ง SMS ได้ทั่วโลก<br />ส่งไว ติดตามผลการส่งได้",
+    "with a coverage of 200 countries. Fast and efficient sending through Intelligent Routing channel systems, complete with sending reports that provide you with the confidence that the message will certainly reach the recipient.": "ส่ง SMS ครอบคลุม 200 ประเทศ ส่งได้รวดเร็วฉับไวด้วยระบบเลือกช่องทางส่งอัจฉริยะ (Intelligent Routing) พร้อมรายงานการส่งที่ให้คุณมั่นใจได้ว่าข้อความถึงมือผู้รับแน่นอน",
+    "I wish to send SMS messages to customers in foreign countries": "ต้องการส่ง SMS ไปให้ลูกค้าต่างประเทศ",
+    "Contact Sales": "ติดต่อฝ่ายขาย"
+  },
+
+  "DesSection": {
+    "Select payment methods between Prepaid and Postpaid": "เลือกวิธีชำระเงินได้ ระหว่าง Prepaid และ Postpaid",
+    "Remove any worries about budget management, as you can choose the method of payment on your own.": "หมดกังวลเรื่องการบริหารงบประมาณ เพราะสามารถเลือกวิธีชำระเงินได้ด้วยตนเอง",
+    "Support for messages in every language": "รองรับการส่งข้อความได้ทุกภาษา",
+    "No matter what language your message is in, you can be free from worries, because when it is sent through our systems, the recipient will receive a message that is easy to read and shows your intended content.": "ไม่ว่าข้อความของคุณจะเป็นภาษาอะไร ก็ไม่ต้องกังวล เพราะเมื่อส่งผ่านระบบของเรา ผู้รับจะได้รับข้อความที่อ่านได้ง่าย และแสดงผลอย่างที่คุณตั้งใจไว้",
+    "Complete with support from a team of specialists": "พร้อมซัพพอร์ต โดยทีมงานผู้เชี่ยวชาญ",
+    "If you require help or advice in sending SMS messages internationally, we have specialists who are ready to support you.": "หากคุณต้องการความช่วยเหลือหรือคำแนะนำในการส่ง SMS ไปต่างประเทศ เรามีผู้เชี่ยวชาญที่พร้อมซัพพอร์ตคุณ"
+  },
+
+  "CtaSection": {
+    "Send SMS and OTP messages globally,<br /> quickly, and at value prices.": "ส่ง SMS และ OTP ได้ทั่วโลก<br />ส่งถึงไว ในราคาที่คุ้มค่า",
+    "Additional inquiries": "สอบถามเพิ่มเติม"
+  }
+}

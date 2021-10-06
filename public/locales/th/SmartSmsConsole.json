@@ -1,0 +1,48 @@
+{
+  "meta":{
+    "title": "ส่งข้อความผ่านเว็บเองด้วย Smart SMS Console | ThaiBulkSMS",
+    "description": "ส่งข้อความ SMS ผ่านเว็บด้วยตนเอง และเชื่อมต่อ SMS API ด้วยระบบ Smart SMS Console เพิ่มความสะดวกและรวดเร็วในการใช้งานยิ่งขึ้น",
+    "keywords": "Smart Sms Console"
+  },
+  "SmartSmsConsoleContentSection":{
+    "<span>Send SMS messages on your own through a website.</span> Sending is easy and can be quickly analyzed.":"<span>ส่ง SMS ผ่านเว็บไซต์</span> ได้ด้วยตนเอง ส่งง่าย วัดผลการส่งได้รวดเร็ว"
+  },
+  "SmsSection":{
+    "Sending from a variety of files is possible and more convenient and customizable.":"ส่งจากไฟล์ได้หลากหลาย สะดวกกว่า ปรับแต่งได้มากกว่า",
+    "The “Send from a file” feature allows you to send the same message to a variety of numbers, or send separate messages to a variety of numbers, supporting CSV, TXT, and Excel files.":"ฟีเจอร์ส่งจากไฟล์ จะทำให้คุณสามารถส่งข้อความเดียวไปยังหลายเบอร์ หรือส่งข้อความต่างกันไปยังหลายเบอร์ได้ รองรับทั้ง CSV, TXT และ Excel",
+    "Try using Smart SMS Console to send SMS messages through a website on your own.":"ลองใช้ Smart SMS Console เพื่อส่ง SMS ผ่านเว็บไซต์ด้วยตนเอง",
+    "Try for free":"ทดลองใช้ฟรี",
+    "Login":"ล็อกอิน"
+  },
+  "SimpleIconSection":{
+    "Send more complex SMS messages through API calls.":"ส่ง SMS ที่ซับซ้อนกว่าได้ ด้วยการส่งผ่าน API",
+    "Sending SMS messages through API calls is used for sending automatic SMS warnings which must be linked to existing applications, websites, or databases, such as the shipping status notifications, expiry date notifications, or user OTP self-confirmation, etc.":"การส่ง SMS ผ่าน API จะใช้สำหรับการส่ง SMS แจ้งเตือนแบบอัตโนมัติ ที่ต้องมีการเชื่อมต่อข้อมูลกับแอพพลิเคชัน เว็บไซต์ หรือฐานข้อมูลที่มีอยู่ เช่น แจ้งสถานะการส่ง แจ้งเตือนวันหมดอายุ หรือให้ผู้รับยืนยันตัวตนด้วย OTP เป็นต้น",
+    "Quickly measure results with smart reports.":"วัดผลการส่งได้รวดเร็ว ด้วยรายงานที่ชาญฉลาด",
+    "Message opening status reports":"รายงานสถานะการเปิดอ่านข้อความ ",
+    "Know immediately if the recipient has opened the message for reading or not<br/>(through the use of  <span>SMS Tracking operation</span>)":"รู้ได้ทันทีว่าผู้รับเปิดอ่านข้อความหรือไม่<br/>(ผ่านการใช้งาน <span>SMS Tracking</span>)",
+    "Detailed shipping status reports":"รายงานสถานะการส่งโดยละเอียด",
+    "View the shipping status of each code, providing knowledge on which messages have not been collected by the recipients.":"โดยดูสถานะการส่งของแต่ละเบอร์ได้ ทำให้รู้ว่าข้อความไหนบ้างที่ส่งไม่ถึงผู้รับ",
+    "Retroactive reporting":"รายงานการส่งย้อนหลัง",
+    "Able to retroactively select and view data reports.":"เลือกดูรายงานข้อมูลการส่งย้อนหลังได้",
+    "Create your own sender name for business credibility":"ตั้งชื่อผู้ส่งเองได้ เพิ่มความน่าเชื่อถือให้ธุรกิจ",
+    "You can set your own Sender Name: aside from adding credibility once the message has been opened, this adds Branding to your business.":"คุณสามารถกำหนดชื่อผู้ส่ง (Sender Name) เองได้ นอกจากเพิ่มความน่าเชื่อถือเมื่อเปิดอ่านแล้ว ยังเพิ่มความเป็น Branding ให้กับธุรกิจคุณอีกด้วย"
+  },
+  "OtherFeature":{
+    "Many additional features ready for sending with the Smart SMS Console":"ยังมีฟีเจอร์อีกมากมาย สำหรับการส่งด้วย Smart SMS Console",
+    "Set a variety of messaging time periods":"ตั้งเวลาส่งข้อความได้หลากหลาย",
+    "Preemptively set time periods as desired by using verifiable time period checking reports.":"ตั้งเวลาส่งล่วงหน้าตามต้องการ มีรายงานการตั้งเวลาให้เช็กความถูกต้อง",
+    "Phonebook system":"ระบบ Phonebook",
+    "Record the numbers in the system by using a phonebook system, allowing messages to be sent more easily.":"บันทึกเบอร์ลงสมุดโทรศัพท์ในระบบได้ เลือกส่งได้ง่ายกว่า",
+    "Near-empty credit warning notifications":"แจ้งเตือนเครดิตใกล้หมด",
+    "Email notifications when credit balances are lower than determined amounts, which can be set by the user.":"แจ้งเตือนทางอีเมลเมื่อเครดิตเหลือน้อยกว่าที่กำหนด โดยสามารถตั้งค่าเองได้",
+    "Messages of any length can be sent":"ข้อความยาวแค่ไหน ก็ส่งได้",
+    "The text can be automatically combined into a single message for ease of reading, supported to a maximum of 5 messages.":"รวมเป็นข้อความเดียวให้อัตโนมัติ เพื่อให้ผู้รับอ่านได้ง่าย รองรับสูงสุด 5 ข้อความ",
+    "Blocklist system":"ระบบ Blocklist",
+    "When numbers that do not wish to be messaged are added to the Blocklist, the system will remove these numbers and cease further messages.":"เมื่อนำเบอร์ที่ไม่ต้องการส่งมาใส่ใน Blocklist ระบบจะตัดออก ไม่ทำการส่งไป"
+  },
+  "CtaSection":{
+    "Easily send messages through the ThaiBulkSMS website <br />without having to rely on Developers":"ส่งข้อความผ่านเว็บ ThaiBulkSMS ได้ง่าย<br />ทำเองได้ ไม่ต้องพึ่ง Developer",
+    "Try for free":"ทดลองใช้ฟรี",
+    "Login":"ล็อกอิน"
+  }
+}

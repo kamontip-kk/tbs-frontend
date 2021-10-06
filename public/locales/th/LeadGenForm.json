@@ -1,0 +1,20 @@
+{
+    "HeadingText": "ฟรี! ไอเดียการใช้ SMS Marketing เพิ่มยอดขาย พิชิตใจลูกค้า",
+    "LeadText": "รวมเทคนิคต่าง ๆ ในการส่ง SMS เพิ่มแนวทางการใช้งาน แบบ Complete Guide",
+    "Email": "อีเมล์",
+    "Phone": "เบอร์โทร",
+    "Download": "ดาวน์โหลด E-Book ฟรี",
+    "Error": {
+        "InvalidPhoneNumber": "เบอร์ไม่ถูกต้อง",
+        "InvalidEmail": "อีเมลไม่ถูกต้อง"
+    },
+    "transferleadcustomerinfodto": {
+        "phoneNumber": {
+            "invalid": "เบอร์ไม่ถูกต้อง"
+        },
+        "email": {
+            "invalid": "อีเมลไม่ถูกต้อง"
+        }
+    },
+    "CompletedText": "ขอบคุณสำหรับข้อมูล E-book จะถูกส่งไปยังอีเมลของคุณและ password เพื่อเปิดไฟล์จะถูกส่ง SMS ไปยังเบอร์ที่คุณให้ไว้"
+}

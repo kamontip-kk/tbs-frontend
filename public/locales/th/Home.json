@@ -1,0 +1,198 @@
+{
+    "meta": {
+        "title": "บริษัทส่งข้อความผ่าน SMS Gateway ราคาเริ่ม 0.21 บาท | ThaiBulkSMS",
+        "description": "บริการส่งข้อความ ผ่าน SMS Gateway ส่ง SMS โฆษณาจำนวนมาก ราคาถูกคุ้มค่าเพียง 0.21 บาท บริษัทอันดับ 1 ของไทย - ทดลองส่ง SMS ฟรี!",
+        "keywords": "free,sms,gateway,website,mobile,phone,online,text,message,messages,thailand,aggregator,thai,server,service,services,providers,shortcodes,ส่ง,ฟรี,gsm,ขาย,ถูก,2g,3g,4g,messaging,,ais,api,bulk,advertising,pricing,price,reseller,software,solutions,campaignscoporate,broadcast,direct,dtac,truemove,hutch,cdma,net,ads,ราคา,promotion,การตลาด,ธุรกิจ,เครือข่าย,เว็บ,โฆษณา,โทรศัพท์เคลื่อนที่,โทรศัพท์มือถือ,ข้อความ,ข้อความสั้น,สตางค์,หารายได้ออนไลน์,ออนไลน์"
+    },
+    "HeroSection": {
+        "Meeting every one of your SMS sending needs." : "บริการ SMS Marketing ตอบโจทย์ทุกความต้องการด้านการส่งข้อความ",
+        "SMS sending service capable of quick sending with reliable stability. Consultation is available at every step." : "บริการส่งข้อความ SMS โฆษณา ผ่าน SMS Gateway ครบวงจร  ส่งไว มั่นใจได้ในความเสถียร พร้อมให้คำปรึกษาทุกขั้นตอน",
+        "Try SMS sending for free" : "ทดลองส่ง SMS ฟรี",
+        "View package prices" : "ดูราคาแพ็กเกจ"
+    },
+    "PartnerSection": {
+        "Leading brands that trust ThaiBulkSMS": "แบรนด์ชั้นนำที่วางใจ ThaiBulkSMS"
+    },
+    "FeatureSection": {
+        "Why ThaiBulk SMS": "ทำไมต้องเป็น <span class=\"col_one\">ThaiBulk</span> <span class=\"col_two\">SMS</span>",
+        "No.1 SMS Platform": "No.1 SMS Platform",
+        "Thailand’s no. 1 SMS service provider": "ผู้ให้บริการ SMS Gateway<br/>อันดับ 1 ของไทย",
+        "Fast & Reliable": "Fast & Reliable",
+        "The fastest channel for sending is chosen automatically, resulting in fast sending and reliable stability.": "เลือกช่องทางส่งที่เร็วที่สุดอัตโนมัติ<br/>จึงส่งไว เชื่อใจได้ในความเสถียร",
+        "Smart Console": "Smart Console",
+        "The results of sending can be measured easily with smart reports.": "วัดผลการส่งข้อความได้ง่าย<br/>ด้วยรายงานที่ชาญฉลาด",
+        "Easily Integrated API": "Easily Integrated API",
+        "Easy to connect and support multiple languages.": "เชื่อมต่อ SMS API ง่าย<br/>ใช้ได้หลากหลายภาษา"
+    },
+    "ServiceSection":{
+      "homeserviceheader":"บริการของ ThaiBulkSMS",
+      "homeservice1":"ส่ง SMS ผ่านเว็บไซต์ได้ด้วยตนเอง ส่งง่าย วัดผลการส่งได้รวดเร็ว",
+      "homeservice2":"บริการ SMS API สำหรับ Developer เชื่อมต่อด้วยภาษาที่คุณเลือก",
+      "homeservice3":"ระบบส่ง OTP พร้อมใช้ เพิ่มความปลอดภัยไม่ต้องเขียนโปรแกรมเพิ่ม",
+      "homeservice4":"วัดผลแคมเปญ SMS แม่นยำ ไม่เสียงบโฆษณาไป โดยเปล่าประโยชน์",
+      "homeservice5":"ส่ง SMS และ OTP ได้ทั่วโลก ด้วยราคาที่คุ้มค่า ส่งไว ติดตามผลการส่งได้",
+      "homeservice6":"เข้าถึงกลุ่มเป้าหมาย แบบกำหนดพื้นที่ ส่งข้อความได้ ไม่ต้องใช้เบอร์",
+      "learnmore":"เรียนรู้เพิ่มเติม"
+    },
+    "SimpleSliderSection": {
+        "Covering every purpose of SMS sending": "ครอบคลุมทุกจุดประสงค์<br/>การส่ง <span>SMS</span>",
+        "Promoting marketing activities": "โปรโมตกิจกรรมการตลาด",
+        "On 20 June, extra discounts of up to 30% for organic products in the promotion. Click here to instantly receive the code.": "20 มิ.ย. นี้ ลดเพิ่มสูงสุด 30% สำหรับสินค้าออร์แกนิกร่วมรายการ รับโค้ดทันที คลิก",
+        "Notification of expiry date": "แจ้งเตือนวันหมดอายุ",
+        "Your car insurance is expiring in July 2020. Click here to extend your insurance.": "ประกันรถยนต์ของคุณจะหมดอายุในเดือนกรกฎาคม 2563 ต่อประกันคลิก",
+        "OTP for identity verification": "OTP ยืนยันตัวตน",
+        "Your OTP password is 345034 (Reference code YXCSF). Please use it for identity verification within 5 minutes": "รหัส OTP ของคุณคือ 345034 (รหัสอ้างอิง YXCSF) โปรดใช้ยืนยันตัวตนภายใน 5 นาที",
+        "Notification of delivery status": "แจ้งสถานะการขนส่ง",
+        "Parcel no. ADJ0349234 is out for delivery. The parcel will be delivered in 1-3 working days. Click here to instantly receive the code.": "หมายเลขพัสดุ ADJ0349234 อยู่ในระหว่างจัดส่ง สินค้าจะถูกจัดส่งภายใน 1-3 วันทำการ รับโค้ดทันที คลิก",
+        "Notification of special privilege for members": "แจ้งสิทธิพิเศษสำหรับ สมาชิก",
+        "Today only, a 700.- coupon for Mr Natdanai. Click here to instantly receive the code.": "วันนี้เท่านั้น คูปอง 700-. ให้คุณณัฐดนัย รับโค้ดทันที คลิก",
+        "Try SMS sending for free": "ทดลองส่งฟรี"
+    },
+    "GlobeSection": {
+        "Free SMS and OTP sending worldwide at a great value price.": "ส่ง <span>SMS</span> และ <span>OTP</span> ได้ทั่วโลก ด้วยราคาที่คุ้มค่า",
+        "Covering more than 200 countries worldwide.": "ครอบคลุมมากกว่า 200 ประเทศทั่วโลก ส่งข้อความได้ทุกเครือข่าย รองรับการส่งข้อความได้ทุกภาษา",
+        "Contact us for more information": "สอบถามรายละเอียด"
+    },
+    "SmsSection": {
+        "Be confident in every instance of SMS sending": "มั่นใจได้ ในทุก ๆ การส่ง SMS",
+        "The number of SMS sent by us up to now": "จำนวน SMS ที่เราส่งไปจนถึงเวลานี้",
+        "The number of SMS sending on average / day": "จำนวนการส่ง SMS โดยเฉลี่ย / วัน",
+        "The average amount of time taken to send SMS Seconds": "ระยะเวลาการส่ง SMS โดยเฉลี่ย",
+        "Seconds": "วินาที",
+        "TestQuickregister": {
+            "Try sending an SMS to your mobile phone now.": "ทดลองส่ง SMS เข้ามือถือคุณได้ทันที",
+            "Just type in your mobile number and verify your identity with the password you receive.": "เพียงกรอกเบอร์มือถือของคุณ และยืนยันตัวตนด้วยรหัสผ่านที่ได้รับ",
+            "desc-2": "กดปุ่มทดลองส่ง แล้วรอรับ SMS ได้เลย",
+            "Your mobile number": "เบอร์มือถือของคุณ",
+            "Confirm number": "ยืนยันเบอร์",
+            "Try SMS sending": "ทดลองส่ง",
+            "modal": {
+                "showModalpass": {
+                    "header": "กรอกรหัสผ่านที่ได้รับทาง SMS",
+                    "placeholder": "รหัสผ่านที่ได้รับ",
+                    "submitBtn": "ยืนยัน"
+                },
+                "showLogin": {
+                    "header": "คุณสามารถทดลองส่งให้คนอื่นได้เช่นกัน",
+                    "decs1": "คุณสามารถเข้าใช้งานระบบเพื่อทดลองส่งได้ทันที",
+                    "decs2": "ด้วยรหัสผ่านที่ได้รับทาง SMS",
+                    "submitBtn": "เข้าใช้งานระบบ"
+                }
+            },
+            "validate": {
+                "msisdn": {
+                  "pattern": "เบอร์มือถือไม่ถูกต้อง กรุณากรอกเป็นตัวเลขไม่เกิน 10 หลัก"
+                },
+                "pin": {
+                  "pattern": "รหัสผ่านต้องเป็นตัวเลขเท่านั้น",
+                  "required": "รหัสผ่านไม่ถูกต้อง"
+                },
+                "welcomeToken": {
+                  "required": "เกิดความผิดพลาด ไม่สามารถดำเนินการได้ (1)"
+                }
+            },
+            "resultStep1": {
+                "quickregisterfirststepdto": {
+                  "msisdn": {
+                    "invalid": "เบอร์มือถือไม่ถูกต้อง กรุณากรอกเป็นตัวเลขไม่เกิน 10 หลัก"
+                  },
+                  "fail": "ไม่สามารถลงทะเบียนได้ กรุณาลองใหม่อีกครั้ง",
+                  "recaptcha": {
+                    "invalid": "กรุณายืนยันตัวตน"
+                  }
+                },
+                "recaptcha": {
+                  "invalid": "กรุณายืนยันตัวตน"
+                },
+                "register": {
+                  "msisdn": {
+                    "exist": "เบอร์มือถือนี้เคยใช้ลงทะเบียนไปแล้ว"
+                  }
+                },
+                "quickRegisterFirstStep": {
+                  "msisdn": {
+                    "exist": "เบอร์มือถือนี้เคยใช้ลงทะเบียนไปแล้ว"
+                  }
+                },
+                "internal": {
+                  "server": {
+                    "error": "ระบบเกิดความผิดพลาด กรุณารอสักครู่ แล้วลองใหม่อีกครั้ง"
+                  }
+                },
+                "400": "ไม่สามารถลงทะเบียนได้ กรุณาลองใหม่อีกครั้ง",
+                "not_found": "ไม่สามารถลงทะเบียนได้ กรุณาลองใหม่อีกครั้ง"
+            },
+            "resultStep2": {
+                "quickregistersecondstepdto": {
+                  "msisdn": {
+                    "invalid": "หมายเลขนี้ไม่สามารถลงทะเบียนได้ กรุณาติดต่อเจ้าหน้าที่",
+                    "exist": "หมายเลขนี้มีในระบบแล้ว"
+                  },
+                  "pin": {
+                    "invalid": "รหัสผ่านไม่ถูกต้อง"
+                  },
+                  "fail": "ไม่สามารถลงทะเบียนได้ กรุณาลองใหม่อีกครั้ง"
+                },
+                "register": {
+                  "quick-2": {
+                    "exist": "รหัสผ่านไม่ถูกต้อง หรือ หมดอายุแล้ว",
+                    "expire": "รหัสผ่านหมดอายุ กรุณารีเฟรชเพื่อดำเนินการขอรหัสผ่านใหม่",
+                    "pin": {
+                      "incorrect": "รหัสผ่านไม่ถูกต้อง"
+                    }
+                  }
+                },
+                "quickRegisterSecondStep": {
+                  "pin": { "incorrect": "รหัสผ่านไม่ถูกต้อง" },
+                  "key": { "expire": "รหัสผ่านหมดอายุ กรุณารีเฟรชเพื่อดำเนินการขอรหัสผ่านใหม่" }
+                }
+            },
+            "resultStep3": {
+                "quickregisterthirdstepdto": {
+                  "welcomeToken": {
+                    "invalid": "เกิดความผิดพลาด ไม่สามารถดำเนินการได้ (1)"
+                  },
+                  "fail": "ไม่สามารถส่งได้ กรุณาลองใหม่อีกครั้ง",
+                  "key": {
+                    "expireLine1": "ไม่สามารถทดลองส่งได้ เนื่องจากเกินเวลาที่กำหนด",
+                    "expireLine2_1": "กรุณา",
+                    "expireLine2_2": "ล็อกอิน",
+                    "expireLine2_3": "ด้วยรหัสผ่านที่ได้รับ เพื่อทดลองส่งด้วยตนเอง",
+                    "expire": "Token หมดอายุแล้ว"
+                  }
+                },
+                "quickRegisterThridStep": {
+                  "key": {
+                    "expire": "Token หมดอายุแล้ว"
+                  }
+                },
+                "register": {
+                  "quick-3": {
+                    "expire": "Token หมดอายุแล้ว"
+                  }
+                }
+            }
+        }
+    },
+    "TestimonialSection": {
+        "Customers who trust ThaiBulk SMS": "ลูกค้าที่มั่นใจใน <span class=\"col_one\">ThaiBulk</span> <span class=\"col_two\">SMS</span>",
+        "ThaiBulkSMS is an SMS-sending service provider which makes sure that sending text messages to customers is very easy and convenient because the service allows us to send the messages by ourselves without having to go through an intermediary. Plus, reports on message sending are provided, enabling more accurate assessment of the results.": "“ThaiBulkSMS เป็นผู้ให้บริการส่ง SMS ที่ทำให้การสื่อสารด้วยการส่งข้อความไปหาลูกค้าเป็นเรื่องที่ง่ายและสะดวกมาก ๆ เพราะสามารถให้เราส่งข้อความได้ด้วยตนเอง ไม่ต้องผ่านตัวกลาง อีกทั้งยังมีรายงานการส่ง ทำให้วัดผลได้อย่างแม่นยำมากยิ่งขึ้นค่ะ”",
+        "Syn Mun Kong Insurance PLC": "บริษัท สินมั่นคงประกันภัย จำกัด (มหาชน)",
+        "The prices represent an excellent value considering the quality of the service. The service meets all our expectations including measurement of results, viewing of reports and controlling budgets which are adjustable in each month or until the credits run out.": "“ราคาคุ้มค่ากับคุณภาพและบริการที่ได้รับมากครับ อีกทั้งยังตอบโจทย์กับสิ่งคาดหวังไว้ได้ทุกประการ ทั้งด้านการวัดผล การเรียกดูรายงาน และการควบคุมงบประมาณที่สามารถปรับเปลี่ยนได้ในแต่ละเดือนหรือจนกว่าเครดิตจะหมด”",
+        "Smart One Logistics Co., Ltd.": "บริษัท สมาร์ท วัน โลจิสติกส์ จำกัด",
+        "The service ensures that marketing by SMS can be executed easily and speedily. The staff are also available to provide helpful advice and rapid solutions to various problems.": "“สามารถทำให้การทำการตลาดด้วย SMS เป็นเรื่องที่ง่ายและรวดเร็ว อีกทั้งยังมีทีมงานคอยให้คำแนะนำ และคอยช่วยเหลือแก้ไขปัญหาต่าง ๆ  ได้อย่างรวดเร็ว”",
+        "National Housing Authority of Thailand": "การเคหะแห่งชาติ"
+    },
+    "EduSection": {
+        "Interesting tips and knowledge regarding SMS and marketing": "เทคนิคและความรู้ที่น่าสนใจเกี่ยวกับ SMS และ Marketing",
+        "View all contents": "ดูเนื้อหาทั้งหมด",
+        "Don’t miss!! Marketing trends in 2020.": "ห้ามพลาด!! เทรนด์การตลาด ปี 2020",
+        "4 ways to communicate with customers most effectively Conclude your sale with testimonials.": "4 วิธีสื่อสารกับลูกค้า ให้มีประสิทธิภาพมากที่สุด",
+        "Simple to do but the results will exceed expectations.": "ปิดการขายด้วย Testimonials ทำง่าย ๆ แต่ผลลัพธ์เกินคาด"
+    },
+    "CtaSection": {
+        "Improve the effectiveness of<br/>your business With SMS from ThaiBulkSMS": "เพิ่มประสิทธิภาพให้ธุรกิจคุณ<br/>ด้วย SMS จาก ThaiBulkSMS",
+        "Try SMS sending for free": "ทดลองส่งฟรี",
+        "View package prices": "ดูราคาแพ็กเกจ"
+    }
+}

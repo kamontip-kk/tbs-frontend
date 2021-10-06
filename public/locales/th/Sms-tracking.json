@@ -1,0 +1,38 @@
+{
+  "meta":{
+    "title": "บริการ SMS Tracking ติดตามสถานะการเปิดอ่าน | ThaiBulkSMS",
+    "description": "ติดตามสถานะและวัดผลการเปิดอ่านรายบุคคล สามารถดูรายงานได้หลังจากการส่งทันที ลดต้นทุนและวัดผลได้อย่างแม่นยำ",
+    "keywords": ""
+  },
+  "HeroSection":{
+    "Accurate SMS campaign measurement":"วัดผลแคมเปญ SMS แม่นยำ",
+    "results that prevent marketing budget wastage.":"ไม่เสียงบการตลาดไปโดยเปล่าประโยชน์"
+  },
+  "SmsSection":{
+    "Real-time status checking on whether or not the recipient has read the message.":"ผู้รับเปิดอ่านข้อความหรือไม่ เช็กสถานะได้แบบเรียลไทม์",
+    "Free from issues where results cannot be measured after sending the SMS: sending with the Link feature through SMS Tracking allows you to accurately check the reading status, in addition to immediately following up on results after sending.":"หมดปัญหาส่ง SMS แล้ววัดผลไม่ได้ เพราะการส่งด้วย Link ผ่านฟีเจอร์ SMS Tracking จะทำให้คุณเช็กสถานะการเปิดอ่านได้อย่างแม่นยำ พร้อมติดตามผลได้ทันทีหลังกดส่ง",
+    "Word of mouth does not equal what the eye sees: test SMS Tracking on your own.":"สิบปากว่าไม่เท่าตาเห็น ทดลองใช้ SMS Tracking ด้วยตัวคุณเอง",
+    "Free trial":"ทดลองใช้ฟรี"
+  },
+  "SimpleIconSection":{
+    "Accurate campaign results measurement with tangible data":"วัดผลแคมเปญแม่นยำ ด้วยข้อมูลที่จับต้องได้",
+    "You can use data from the “Campaign results” of SMS Tracking for marketing analyses on how efficient and price-effective your SMS campaign was.":"คุณสามารถใช้ข้อมูลจาก “รายงานแคมเปญ” ของ SMS Tracking ในการนำไปวัดผลทางการตลาด ว่าแคมเปญ SMS ของคุณสำเร็จและคุ้มค่ากับงบประมาณที่ใช้มากแค่ไหน",
+    "Number of SMS messages sent to the recipient":"จำนวน SMS ที่ส่งถึงผู้รับ",
+    "Number of recipients who opened the message":"จำนวนผู้รับ ที่เปิดอ่าน",
+    "Number of people who opened the website from the SMS message":"จำนวนการเข้าชม เว็บไซต์ที่มาจาก SMS",
+    "Number of credits used in the campaign":"จำนวนเครดิต ที่ใช้ในแคมเปญ"
+  },
+  "TrackSection":{
+    "Follow up on individual-level statuses to know which recipients are interested in you.":"ติดตามสถานะการเปิดรายบุคคล รู้ว่าผู้รับคนไหนที่สนใจคุณ",
+    "SMS Tracking follows the status of message opening at the individual level, allowing you to know who frequently opens their messages and is suitable for Marketing. This reduces your costs by preventing you from wasting funds by sending messages to individuals who never open their messages.":"เพราะ SMS Tracking ติดตามสถานะการเปิดได้เป็นรายบุคคล จึงทำให้คุณรู้ว่าผู้รับคนไหนเปิดบ่อย น่าทำ Marketing ด้วย และยังช่วยลดค่าใช้จ่าย ให้คุณไม่ต้องเสียเงินส่งไปหาผู้รับที่ไม่เคยเปิดอ่าน",
+    "<span>Step-by-Step SMS Tracking</span><br/> Campaign Creation Tutorial":"สอนสร้างแคมเปญด้วย<br/><span>SMS Tracking</span><br/>แบบ Step-by-Step",
+    "Step of use":"ขั้นตอนการใช้งาน"
+  },
+  "CtaSection":{
+    "Avoid ineffective Marketing budget wastage <br/>through SMS Tracking.": "ไม่เสียงบการตลาดโดยเปล่าประโยชน์อีกต่อไป<br/>เพียงใช้ SMS Tracking",
+    "Free trial": "ทดลองใช้ฟรี",
+    "Or": "หรือ",
+    "log in": "ล็อกอิน",
+    ", if you already have an account": "หากมีบัญชีผู้ใช้แล้ว"
+  }
+}

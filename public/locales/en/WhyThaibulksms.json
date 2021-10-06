@@ -1,0 +1,68 @@
+{
+    "meta":{
+        "title": "We are SMS specialists of over 10 years | ThaiBulkSMS",
+        "description": "Thailand’s Number 1 SMS sending service. You can send messages by yourself without middle parties.",
+        "keywords": ""
+    },
+    "HeroSection":{
+        "Why should I use the SMS messaging service of <span>ThaiBulkSMS?</span>":"Why should you use SMS sending service of <span>ThaiBulkSMS?</span>"
+    },
+    "SmsSection":{
+        "As Thailand’s Number 1 SMS Communication Platform, which can be personally confirmed,":"No.1 Certified SMS Communication Platform",
+        "ThaiBulkSMS provides the SMS Communication Platform that is certified by the National Broadcasting and Telecommunications Commission. We have been operating for over 10 years, so you can certainly rest assured in the quality of our service.":"ThaiBulkSMS SMS Communication Platform is certified by National Broadcasting and Telecommunications Commission. We have been operating for over 10 years. You can be assured of our service quality."
+    },
+    "BrandSection":{
+        "A leading, trustworthy brand: ThaiBulkSMS":"Many Leading Businesses Trust ThaiBulkSMS",
+        "Quick sending, rapid receipt, and confidently stable transmissions using Intelligent Routing":"Fast & Stable Sending with Intelligent Routing System",
+        "3 direct networks can be used for sending":"Send via Tier 1 Network Directly",
+        "Messaging therefore proceeds quickly and with high stability. No bottlenecks occur because we have many channels available for transmission.":"Sending is so fast and highly stable. There is no bottleneck problem because there are many channels",
+        "Selecting a transmission channel that corresponds with the network of the recipient number":"Send via Network that Matches Recipient's Network",
+        "We have a network inspection system for the number of the recipient, which filters SMS messages to be sent directly through that network, allowing quicker messaging.":"Our system will detect the recipient's network and send SMS directly over that network which makes sending faster",
+        "Automatic selection of the best channel":"Selects the Best Channel Automatically ",
+        "If any channel experiences problems, the system is able to immediately shift messaging to other channels, in addition to having backup transmission systems.":"When any channel has problems, our system will change sending to another channel immediately.",
+        "Free messaging trial":"Try for FREE"
+    },
+    "PriceSection":{
+        "Focus on cheap prices or on full features can be selected according to your needs":"Cheap Prices or Full Features, You Can Choose",
+        "Standard Package":"Standard Package",
+        "Cheaper messaging prices":"Cheaper prices",
+        "Viewable messaging reports":"SMS sending reports",
+        "Complete basic feature operations":"All basic features",
+        "Campaign analysis tools":"Campaign measurement tools",
+        "The best SMS price is available at only":"Special price only",
+        "baht / SMS":"Baht / SMS",
+        "Corporate Package":"Corporate Package",
+        "All the features of Standard SMS":"All Standard SMS features",
+        "OTP messaging with a Ready-to-use system":"Ready-to-use OTP system",
+        "Credit refunds if recipients are unable to receive the messages":"Refund credits if sending fails",
+        "More detailed messaging status checking":"In-depth sending status",
+        "Learn more":"Learn more",
+        "View Package Prices":"VIEW PACKAGES"
+    },
+    "TrackSection":{
+        "Easily operated, no matter what category of User you are.":"Easy to Use, No Matter Who You Are",
+        "<span>For new users</span> who have yet to send SMS messages through the web.":"<span>Beginner</span>, Never Send Before",
+        "Sending SMS messages through ThaiBulkSMS is free from complications and does not require technical knowledge. If you are stuck with problems, there are many channels that are ready to assist.":"Sending SMS via ThaiBulkSMS is not complicated. If you get stuck, there are many ways to help.",
+        "<span>For Marketers</span> who wish to analyze the effects of their SMS campaigns":"<span>Marketer</span>, Need Analyze Campaigns",
+        "Results analysis tools and easily understandable reports are available, leading to future analyses on whether the campaign was successful.":"There are measurement tools & easy-to-understand reports that can analyze campaign success.",
+        "<span>For Developers</span> who write programs that link with APIs":"<span>Developer</span>, Need Connect via API",
+        "Easy to code programs that link with APIs; a variety of languages are supported, and a system that supports OTP sending is included.":"Easy coding for API Connecting, multiple languages supports with ready-to-use OTP system",
+        "Try Sending Messages for Free":"Try Sending SMS for FREE",
+        "Included with support from a team of specialists":"Ready to Support by Our Expert",
+        "This creates confidence that if the system experiences problems, we can immediately fix the situation for you, regardless of whether it is a Hardware or Software issue.":"We are ready to resolve any issues for you in timely manner, whether it be hardware or software",
+        "Safely preserve your data with Internet Banking standards.":"Highest Safety with Internet Banking Standard",
+        "With an SSL security system that has the highest standards used in various Internet Banking platforms, you can rest assured that your use of ThaiBulkSMS will receive the same level of safety as that of Internet Banking.":"With SSL security connection which is the highest standard used in Internet Banking platforms, you can ensure that when accessing ThaiBulkSMS is as secure as using Internet Banking."
+    },
+    "CtaSection":{
+        "Increase successes with SMS Marketing <br/>through Thailand’s number 1 SMS Provider.":"Increase Success in SMS Marketing <br/>with Thailand’s No. 1 SMS Provider.",
+        "Try for free":"Try for FREE",
+        "View Package Prices":"VIEW PACKAGES"
+    },
+    "FaqSection":{
+        "Do you still have questions?":"Still Have Questions?",
+        "Select your most convenient contact channel":"Choose your convenient channel to contact us",
+        "Contact an officer":"CONTACT US",
+        "The officer will contact you back":"CALL BACK SERVICE",
+        "Email":"E-MAIL"
+    }
+}

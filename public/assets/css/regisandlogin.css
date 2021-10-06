@@ -1,0 +1,285 @@
+/*---------------------------------------------
+            Register and login page  CSS
+-----------------------------------------------*/
+.captcha {
+    margin: 20px 0;
+    max-width: 45%;
+}
+
+.sec-checkbox {
+    font-size: 16px;
+    font-family: 'Sarabun', sans-serif;
+    color: #5b6e80;
+}
+
+.sec-checkbox .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Hide the browser's default checkbox */
+
+.sec-checkbox .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+
+.sec-checkbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+
+.sec-checkbox .container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+
+.sec-checkbox .container input:checked ~ .checkmark {
+    background-color: #2196f3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.sec-checkbox .checkmark:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+
+.sec-checkbox .container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+
+.sec-checkbox .container .checkmark:after {
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.finish-regis {
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 150px;
+}
+
+.finish-regis .img-finish-regis {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.finish-regis p.sub-text {
+    font-size: 24px;
+    font-weight: 300;
+    color: #5b6e80;
+}
+
+.finish-regis .btn-login {
+    margin: 20px auto;
+}
+
+.finish-regis p {
+    color: #5b6e80;
+}
+
+.finish-regis a.btn {
+    min-width: 180px;
+}
+
+.finish-regis p a,
+.sec-checkbox a {
+    color: #31b1e7;
+    text-decoration: underline;
+}
+
+.form-login {
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e8edee;
+    background-color: #fff;
+    padding: 30px 50px;
+    margin: 40px auto 100px;
+    text-align: left;
+}
+
+.form-login .input-txt01 {
+    width: 100%;
+    padding: 3%;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #b2bbc3;
+    margin: 15px auto;
+    font-weight: 300;
+}
+
+.form-login .link-forgot {
+    margin: 0px auto 10px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.form-login .link-forgot a {
+    color: #31b1e7;
+    text-decoration: underline;
+}
+
+.btn-login {
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-login a.btn {
+    min-width: 180px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .finish-regis {
+        max-width: 650px;
+      }
+      .finish-regis p.sub-text {
+        font-size: 20px;
+        font-weight: 300;
+        color: #5b6e80;
+        line-height: 1.2;
+      }
+      .finish-regis .img-finish-regis {
+        width: 40%;
+        margin-bottom: 40px;
+      }
+      .input-txt01 {
+        margin: 10px auto;
+      }
+}
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .form-login .input-txt01 {
+        width: 100%;
+        padding: 5%;
+        font-size: 16px;
+        border-radius: 15px;
+        border: 1px solid #b2bbc3;
+        margin: 15px auto;
+        font-weight: 300;
+      }
+      .form-login .link-forgot {
+        margin: 0px auto 10px;
+        text-align: right;
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .finish-regis {
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto 40px;
+      }
+      .finish-regis .img-finish-regis {
+        /* width: 70%; */
+        /* margin-bottom: 40px; */
+
+        width: 50%;
+        margin: 20px auto;
+      }
+      .finish-regis p.sub-text {
+        font-size: 18px;
+        font-weight: 300;
+        color: #5b6e80;
+
+        /* font-size: 16px; */
+      }
+      .sec-checkbox .container {
+        font-size: 14px;
+      }
+      .checkmark {
+        position: absolute;
+        top: 0px;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        border-radius: 5px;
+      }
+      .checkmark-payment {
+        border-radius: 50px;
+      }
+
+      .sub_userType {
+        font-size: 18px;
+      }
+      .chooseType .indivType,
+      .chooseType .companyType {
+        width: 280px;
+        margin-bottom: 40px;
+      }
+      .img-user {
+        width: 100%;
+        margin: 10px auto;
+        min-height: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+      }
+      .input-txt01,
+      .input-twocolumn .input-txt02 {
+        padding: 4% 5%;
+        font-size: 16px;
+        border: 1px solid #b2bbc3;
+        margin: 10px auto;
+      }
+      .form-indiv h3 {
+        font-size: 18px;
+        font-weight: 400;
+        margin-top: 0px;
+      }
+      .form-indiv h4 {
+        font-size: 14px;
+      }
+      .select-address label {
+        margin: 5px 0;
+      }
+      .select-address .text {
+        color: #5b6e80;
+        font-size: 16px;
+      }
+      .btn-regis {
+        margin: 30px 0;
+        width: 100%;
+        text-align: center;
+      }
+      .btn.v2.companybtn {
+        min-width: 90px;
+      }
+
+}

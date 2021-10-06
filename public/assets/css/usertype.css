@@ -1,0 +1,387 @@
+/*---------------------------------------------
+            ChooseUserType page  CSS
+-----------------------------------------------*/
+.userType_section,
+.register_section,
+.login_section {
+    min-height: 700px;
+    text-align: center;
+    padding: 200px 0 60px;
+    background: url(../img/bg-page.png) no-repeat top center;
+    background-size: cover;
+}
+
+.sub_userType {
+    font-size: 20px;
+}
+
+.chooseType {
+    max-width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 40px auto 100px;
+}
+
+.chooseType .indivType,
+.chooseType .companyType {
+    box-shadow: 0 0 20px #e8edee;
+    border-radius: 15px;
+    width: 360px;
+    padding: 20px;
+    position: relative;
+    background-color: #fff;
+}
+
+.chooseType a.btn.v3 {
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.img-user {
+    width: 90%;
+    margin: 40px auto;
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img-user object {
+    width: 100%;
+    height: auto;
+}
+
+.sub_userType span {
+    color: #31b1e7;
+    font-weight: 600;
+}
+
+.form-indiv {
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #e8edee;
+    background-color: #fff;
+    padding: 30px 50px;
+    margin: 40px auto 100px;
+    text-align: left;
+}
+
+.form-indiv h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+.form-indiv h4 {
+    font-size: 20px;
+    font-weight: 300;
+    color: #5b6e80;
+    margin: 0px 0 10px;
+    line-height: 1;
+}
+
+.company-id {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.company-id input {
+    width: 70%;
+    flex: initial;
+}
+
+.company-id a {
+    flex: 1;
+    margin-left: 3%;
+}
+
+.input-txt01 {
+    width: 100%;
+    padding: 2%;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #b2bbc3;
+    margin: 15px auto;
+    font-weight: 300;
+}
+
+.input-twocolumn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.input-twocolumn .input-txt02 {
+    width: 48%;
+    padding: 2%;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 2px solid #b2bbc3;
+    margin: 15px 0;
+    font-weight: 300;
+}
+
+.form-user {
+    height: 1px;
+    background-color: #cdd4da;
+    width: 100%;
+    margin: 30px 0;
+    clear: both;
+}
+
+.btn-regis {
+    margin: 50px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.select-address {
+    margin: 20px 0 0;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+/* label */
+.select-address label {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 12px 0;
+    cursor: pointer;
+    position: relative;
+}
+
+/* input */
+
+.select-address input {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+/* .design */
+
+.select-address .design {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #b2bbc3;
+    border-radius: 100%;
+    margin-right: 16px;
+    position: relative;
+}
+.select-address .design::before,
+.select-address .design::after {
+    content: '';
+    display: block;
+    width: inherit;
+    height: inherit;
+    padding: 0;
+    margin: 0;
+    border-radius: inherit;
+    position: absolute;
+    transform: scale(0);
+    transform-origin: center center;
+    top: -1px;
+    left: -1px;
+}
+
+.select-address .design:before {
+    background: #31b1e7;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.select-address .design::after {
+    background: #31b1e7;
+    opacity: 0.4;
+    transition: 0.6s;
+}
+/* .text */
+
+.select-address label:last-child {
+    margin-left: 30px;
+}
+
+.select-address .text {
+    color: #5b6e80;
+}
+
+/* checked state */
+
+.select-address input:checked + .design::before {
+    opacity: 1;
+    transform: scale(0.6);
+}
+
+/* other states */
+
+.select-address input:hover + .design,
+.select-address input:focus + .design {
+    border: 1px solid #b2bbc3;
+}
+
+.select-address input:hover + .design:before,
+.select-address input:focus + .design:before {
+    background: #31b1e7;
+}
+
+.select-address input:hover ~ .text {
+    color: #31b1e7;
+}
+
+.select-address input:focus + .design::after,
+.select-address input:active + .design::after {
+    opacity: 0.1;
+    transform: scale(2.6);
+    color: #31b1e7;
+}
+
+.select-address .abs-site-link {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: hsla(0, 0%, 0%, 0.6);
+    background: hsla(0, 0%, 98%, 0.6);
+    font-size: 16px;
+}
+.usertypeDD {
+    margin: 10px auto 30px !important;
+}
+
+.usertypeBranch {
+    margin: 15px 0 15px !important;
+    width: 100% !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .userType_section,
+    .register_section,
+    .login_section {
+      padding: 180px 0 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .input-txt01 {
+        width: 100%;
+        padding: 2.5% 2%;
+        font-size: 18px;
+        border-radius: 15px;
+        border: 2px solid #b2bbc3;
+        margin: 15px auto;
+      }
+      .input-twocolumn .input-txt02 {
+        width: 48%;
+        padding: 1% 2%;
+        font-size: 18px;
+        border-radius: 15px;
+        border: 2px solid #b2bbc3;
+        margin: 15px 0;
+      }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    
+    .chooseType {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+      }
+      .chooseType .indivType,
+      .chooseType .companyType {
+        box-shadow: 0 0 20px #e8edee;
+        border-radius: 15px;
+        width: 320px;
+        padding: 20px;
+        position: relative;
+        margin-bottom: 50px;
+      }
+      .form-indiv {
+        padding: 30px 30px;
+      }
+      .form-indiv {
+        max-width: 90%;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #e8edee;
+        background-color: #fff;
+        padding: 30px 30px;
+        margin: 40px auto;
+        text-align: left;
+      }
+      .form-indiv h4 {
+        font-size: 16px;
+        font-weight: 300;
+        color: #5b6e80;
+        margin: 0px 0 10px;
+        line-height: 1.4;
+      }
+      .input-txt01 {
+        padding: 3%;
+        font-size: 18px;
+      }
+      .input-twocolumn .input-txt02 {
+        width: 48%;
+        padding: 3%;
+        font-size: 18px;
+      }
+      .select-address {
+        margin: 20px 0 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+      .select-address label:last-child {
+        margin-left: 0px;
+      }
+      .input-twocolumn {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+      }
+      .input-twocolumn .input-txt02 {
+        width: 100%;
+        padding: 5%;
+        font-size: 18px;
+        border: 2px solid #b2bbc3;
+        margin: 10px auto;
+      }
+      .input-twocolumn div.input-with-error {
+        width: 100%;
+      }
+    
+      .input-twocolumn div.input-with-error select[name="branch"]{
+      display:none;
+      visibility: hidden;
+    }
+      .userType_section,
+      .register_section,
+      .login_section {
+        padding: 100px 0 60px;
+        min-height: 600px;
+        margin: 0 auto;
+      }
+      .usertypeBranch {
+        margin: 10px 0 10px !important;
+        width: 100% !important;
+        /* height: 60px !important; */
+
+        font-size: 16px;
+        height: 53px !important;
+      }
+}

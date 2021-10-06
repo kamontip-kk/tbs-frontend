@@ -1,0 +1,138 @@
+/*----------------------------
+       Simple Icon CSS
+------------------------------*/
+
+.simple_icon_section {
+    padding: 140px 0;
+}
+
+.simple_icon_title {
+    text-align: center;
+}
+
+.icon_wrapper {
+    position: relative;
+}
+
+.arrow_bg {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.simple_icon_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 90px 0;
+}
+
+.simple_icon p {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 25px 0 0;
+    color: #5b6e80;
+    font-family: 'Sarabun', serif;
+    font-weight: 500;
+}
+
+.icon_btn {
+    margin-top: 150px;
+}
+
+.simple_icon {
+    text-align: center;
+}
+
+.simple_icon_btn {
+    background: #fff;
+    padding: 40px;
+    box-shadow: 0 0 35px rgb(0, 0, 0, 0.2);
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 35px;
+}
+
+.simple_icon_btn h4 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    color: #2a87f4;
+    font-weight: 500;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .simple_icon_btn h4 {
+        font-size: 36px;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .simple_icon img {
+        max-width: 80px;
+      }
+    
+      .simple_icon p {
+        font-size: 13px;
+      }
+    
+      .simple_icon_btn h4 {
+        font-size: 23px;
+      }
+    
+      .simple_icon_btn {
+        padding: 27px;
+        margin: 0 20px;
+      }
+    
+      .arrow_bg {
+        max-width: 40%;
+      }
+    
+      .icon_btn {
+        margin-top: 0px;
+      }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .simple_icon_section {
+    /* padding: 140px 0 50px; */
+    padding: 20px 0 20px;
+  }
+  
+  .simple_icon_wrapper {
+    display: block;
+    margin: 30px 0 60px;
+  }
+  
+  .simple_icon {
+    margin-bottom: 30px;
+  }
+  
+  .simple_icon p {
+    font-size: 15px;
+  }
+  
+  .simple_icon_btn h4 {
+    font-size: 23px;
+  }
+  
+  .simple_icon_btn {
+    padding: 20px;
+    margin: 0 10px;
+    margin-bottom: 25px;
+  }
+  
+  .arrow_bg {
+    /* max-width: 40%; */
+
+    top: 90%;
+    max-width: 60%;
+  }
+  
+  .icon_btn {
+    margin-top: 0px;
+  }
+  
+}

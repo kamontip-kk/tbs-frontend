@@ -1,0 +1,48 @@
+{
+  "meta":{
+    "title": "Send SMS by yourself through Smart SMS Console | ThaiBulkSMS",
+    "description": "Send SMS on website through Smart SMS Console by yourself, fast and easy for sending - Ready to connect with API",
+    "keywords": "Smart Sms Console"
+  },
+  "SmartSmsConsoleContentSection":{
+    "<span>Send SMS messages on your own through a website.</span> Sending is easy and can be quickly analyzed.":"<span>Send SMS via Website</span> by Yourself, Easy Sending, Quick Measurement"
+  },
+  "SmsSection":{
+    "Sending from a variety of files is possible and more convenient and customizable.":"Send from Multi-Sources, More Convenient, More Customizable.",
+    "The “Send from a file” feature allows you to send the same message to a variety of numbers, or send separate messages to a variety of numbers, supporting CSV, TXT, and Excel files.":"“Send from a file” feature allows you to send a single message to multiple numbers. Or send different messages to multiple numbers, support CSV, TXT and Excel",
+    "Try using Smart SMS Console to send SMS messages through a website on your own.":"Try Using Smart SMS Console to Send SMS through Website",
+    "Try for free":"Try for FREE",
+    "Login":"Login"
+  },
+  "SimpleIconSection":{
+    "Send more complex SMS messages through API calls.":"Send More Complex SMS through API",
+    "Sending SMS messages through API calls is used for sending automatic SMS warnings which must be linked to existing applications, websites, or databases, such as the shipping status notifications, expiry date notifications, or user OTP self-confirmation, etc.":"SMS Sending via API is used for sending SMS alerts automatically. And need to connect to application, website, database. For example, notify shipping, notify expiration, verify OTP, etc.",
+    "Quickly measure results with smart reports.":"Measure Result Quickly with Smart Report",
+    "Message opening status reports":"Message Reading Status Report",
+    "Know immediately if the recipient has opened the message for reading or not<br/>(through the use of  <span>SMS Tracking operation</span>)":"Know immediately if the recipient has read the message or not<br/>(via <span>SMS Tracking</span>)",
+    "Detailed shipping status reports":"In-depth Sending Status Report",
+    "View the shipping status of each code, providing knowledge on which messages have not been collected by the recipients.":"Get sending status of each person, that makes know who doesn't receive the message",
+    "Retroactive reporting":"Past sending report",
+    "Able to retroactively select and view data reports.":"View SMS sending report in the past",
+    "Create your own sender name for business credibility":"Create Your Own Sender Name for Business Credibility",
+    "You can set your own Sender Name: aside from adding credibility once the message has been opened, this adds Branding to your business.":"You can set your own Sender Name. In addition to increasing credibility when reading messages, it also adds Branding to your business."
+  },
+  "OtherFeature":{
+    "Many additional features ready for sending with the Smart SMS Console":"Many additional features ready for sending with Smart SMS Console",
+    "Set a variety of messaging time periods":"Set Schedule for Sending",
+    "Preemptively set time periods as desired by using verifiable time period checking reports.":"Set schedule for sending as you want, with report for checking time accuracy",
+    "Phonebook system":"Phonebook System",
+    "Record the numbers in the system by using a phonebook system, allowing messages to be sent more easily.":"Save phone numbers in phonebook system, send SMS easier",
+    "Near-empty credit warning notifications":"Low Credit Alert",
+    "Email notifications when credit balances are lower than determined amounts, which can be set by the user.":"Notify by email when credit is less than required. Which can be set manually",
+    "Messages of any length can be sent":"Send with Any Length",
+    "The text can be automatically combined into a single message for ease of reading, supported to a maximum of 5 messages.":"The system will automatically trim the message. And send up to 5 messages separately",
+    "Blocklist system":"Blocklist system",
+    "When numbers that do not wish to be messaged are added to the Blocklist, the system will remove these numbers and cease further messages.":"Add phone number into Blocklist system for not sending SMS to this recipient"
+  },
+  "CtaSection":{
+    "Easily send messages through the ThaiBulkSMS website <br />without having to rely on Developers":"Send SMS Easily through ThaiBulkSMS Website <br />No Developer Needed",
+    "Try for free":"Try for FREE",
+    "Login":"Login"
+  }
+}

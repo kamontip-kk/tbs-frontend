@@ -1,0 +1,106 @@
+/*----------------------------
+    Globe  CSS
+------------------------------*/
+
+.globe_section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.globe_section:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    content: '';
+    background: linear-gradient( 360deg, rgba(231, 235, 240, 1) 0%, rgba(246, 248, 250, 1) 55%, rgba(255, 255, 255, 1) 100%);
+    z-index: -1;
+}
+
+.globe_text h3,
+.globe_text h2 {
+    font-size: 40px;
+    line-height: 1.3;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.globe_text p {
+    color: #5b6e80;
+    font-size: 24px;
+    line-height: 1.2;
+    margin: 20px 0 40px;
+}
+
+.globe_text h3,
+.globe_text h2 span {
+    color: #31b1e7;
+}
+
+.globe_img {
+    text-align: center;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+      .globe_section{
+        height: 458px;
+      }
+      .globe_text h2 {
+        font-size: 30px;
+        line-height: 1.2;
+      }
+      .globe_text p {
+        color: #5b6e80;
+        font-size: 20px;
+        line-height: 1.2;
+        margin: 20px 0 40px;
+      }
+      .globe_section {
+        padding: 60px 0;
+        position: relative;
+      }
+      .globe_img span img {
+        width: 350px;
+        height: 350px;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+      .globe_text {
+        text-align: center;
+        margin-top: 30px;
+      }
+    
+      .globe_text h2 {
+        font-size: 32px;
+      }
+    
+      .globe_text p {
+        font-size: 24px;
+        margin: 10px 0 40px;
+      }
+      
+      /* .globe_section .container .row.align-items-center{
+        width: 768px;
+      } */
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+  .globe_text {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .globe_text h3, .globe_text h2 {
+    font-size: 22px;
+  }
+
+  .globe_text p {
+    font-size: 16px;
+  }
+
+  .globe_section {
+    display: none;
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "title": "Send Bulk SMS via SMS gateway, Start at 0.21 baht | ThaiBulkSMS",
+    "description": "Bulk SMS sending provider. Send SMS via SMS gateway. Send mass ads SMS. Cheap Price at 0.21 baht. No.1 Thailand Provider - Try for FREE!",
+    "keywords": ""
+  },
+  "HeroSection": {
+    "Meeting every one of your SMS sending needs.": "No.1 Top SMS Marketing Provider",
+    "SMS sending service capable of quick sending with reliable stability. Consultation is available at every step.": "Send advertising SMS via SMS Gateway, Fast, Stable, Ready to give consultation at every step.",
+    "Try SMS sending for free": "Try for FREE",
+    "View package prices": "View Packages"
+  },
+  "PartnerSection": {
+    "Leading brands that trust ThaiBulkSMS": "Many Leading Businesses Trust ThaiBulkSMS"
+  },
+  "FeatureSection": {
+    "Why ThaiBulk SMS": "Why <span class=\"col_one\">ThaiBulk</span><span class=\"col_two_lang_en\">SMS</span>",
+    "No.1 SMS Platform": "No.1 SMS Platform",
+    "Thailand’s no. 1 SMS service provider": "Thailand’s No. 1<br/>SMS Gateway Provider",
+    "Fast & Reliable": "Fast & Reliable",
+    "The fastest channel for sending is chosen automatically, resulting in fast sending and reliable stability.": "Send SMS via the fastest channel automatically with reliable & stable",
+    "Smart Console": "Smart Console",
+    "The results of sending can be measured easily with smart reports.": "Easy to measure sending SMS with smart reports",
+    "Easily Integrated API": "Easily Integrated API",
+    "Easy to connect and support multiple languages.": "Easy to connect SMS API with multiple programing languages"
+  },
+  "ServiceSection":{
+    "homeserviceheader":"ThaiBulkSMS Service",
+    "homeservice1":"Send SMS messages through website by yourself, fast, easy, measurable",
+    "homeservice2":"SMS API Service for developers, connecting with your chosen programing languages",
+    "homeservice3":"Ready-to-use OTP service to increase safety, no programming skill required",
+    "homeservice4":"Measure SMS campaign results accurately, do not waste your marketing budget",
+    "homeservice5":"Send SMS and OTP messages globally at valuable prices, fast, trackable",
+    "homeservice6":"Reach your target group within specific areas, send messages immediately without phone numbers",
+    "learnmore":"Learn More"
+    },  
+  "SimpleSliderSection": {
+    "Covering every purpose of SMS sending": "Send <span>SMS</span> to Your Client as You Want",
+    "Promoting marketing activities": "Promote Marketing Activities",
+    "On 20 June, extra discounts of up to 30% for organic products in the promotion. Click here to instantly receive the code.": "On 20 June, Discount up to 30% for organic products, Get the code Now. Click!",
+    "Notification of expiry date": "Notify Expiration",
+    "Your car insurance is expiring in July 2020. Click here to extend your insurance.": "Your car insurance is expiring in July 2020. Click here to extend your insurance.",
+    "OTP for identity verification": "Verify OTP",
+    "Your OTP password is 345034 (Reference code YXCSF). Please use it for identity verification within 5 minutes": "Your OTP password is 345034 (Reference code YXCSF). Please use it for identity verification within 5 minutes",
+    "Notification of delivery status": "Notify Shipping",
+    "Parcel no. ADJ0349234 is out for delivery. The parcel will be delivered in 1-3 working days. Click here to instantly receive the code.": "Parcel No. ADJ0349234 is in transit. Product will be shipped within 1-3 business days. Get code now. Click!",
+    "Notification of special privilege for members": "Notify Member's Privilege",
+    "Today only, a 700.- coupon for Mr Natdanai. Click here to instantly receive the code.": "Today only, a 700.- coupon for Mr Natdanai. Click here to instantly receive the code.",
+    "Try SMS sending for free": "Try for FREE"
+  },
+  "GlobeSection": {
+    "Free SMS and OTP sending worldwide at a great value price.": "Send <span>SMS</span> & <span>OTP</span> Worldwide at Great Prices.",
+    "Covering more than 200 countries worldwide.": "Covering more than 200 countries worldwide. Send SMS to all networks support all languages",
+    "Contact us for more information": "Contact for more information"
+  },
+  "SmsSection": {
+    "Be confident in every instance of SMS sending": "Guarantee Our Service with Impressive Statistics",
+    "The number of SMS sent by us up to now": "Total SMS Sent Volume Up to Now",
+    "The number of SMS sending on average / day": "SMS Sending Volume / Day",
+    "The average amount of time taken to send SMS Seconds": "SMS Sending Speed (Avg.)",
+    "Seconds": "Sec.",
+    "TestQuickregister": {
+      "Try sending an SMS to your mobile phone now.": "Try Sending SMS to Your Phone",
+      "Just type in your mobile number and verify your identity with the password you receive.": "Just type your mobile number & verify with received password",
+      "desc-2": "Press the trial button and wait for the SMS",
+      "Your mobile number": "Your mobile number",
+      "Confirm number": "Confirm ",
+      "Try SMS sending": "Try SMS sending",
+      "modal": {
+        "showModalpass": {
+          "header": "Type password from received SMS",
+          "placeholder": "Received password",
+          "submitBtn": "Confirm"
+        },
+        "showLogin": {
+          "header": "You can try sending SMS to others too",
+          "decs1": "You can login to try sending SMS immediately.",
+          "decs2": "with password from received SMS",
+          "submitBtn": "Login"
+        }
+      },
+      "validate": {
+        "msisdn": {
+          "pattern": "Mobile number is incorrect, please type with number (maximum: 10 digits)"
+        },
+        "pin": {
+          "pattern": "Password must be numeric",
+          "required": "Password is incorrect"
+        },
+        "welcomeToken": {
+          "required": "Something went wrong, can't operate (1)"
+        }
+      },
+      "resultStep1": {
+        "quickregisterfirststepdto": {
+          "msisdn": {
+            "invalid": "Mobile number is incorrect, please type with number (maximum: 10 digits)"
+          },
+          "fail": "Can't register, please try again",
+          "recaptcha": {
+            "invalid": "Please verify your identity"
+          }
+        },
+        "recaptcha": {
+          "invalid": "Please verify your identity"
+        },
+        "register": {
+          "msisdn": {
+            "exist": "This mobile number has already been registered"
+          }
+        },
+        "quickRegisterFirstStep": {
+          "msisdn": {
+            "exist": "This mobile number has already been registered"
+          }
+        },
+        "internal": {
+          "server": {
+            "error": "System error please try again"
+          }
+        },
+        "400": "Can't register, please try again",
+        "not_found": "Can't register, please try again"
+      },
+      "resultStep2": {
+        "quickregistersecondstepdto": {
+          "msisdn": {
+            "invalid": "This mobile number cannot be registered, please contact our staff",
+            "exist": "This mobile number has already been registered."
+          },
+          "pin": {
+            "invalid": "Password is incorrect"
+          },
+          "fail": "Can't register, please try again"
+        },
+        "register": {
+          "quick-2": {
+            "exist": "Password is incorrect or expired",
+            "expire": "Password is expired, please refresh to request new password",
+            "pin": {
+              "incorrect": "Password is incorrect"
+            }
+          }
+        },
+        "quickRegisterSecondStep": {
+          "pin": {
+            "incorrect": "Password is incorrect"
+          },
+          "key": {
+            "expire": "Password is expired, please refresh to request new password"
+          }
+        }
+      },
+      "resultStep3": {
+        "quickregisterthirdstepdto": {
+          "welcomeToken": {
+            "invalid": "Something went wrong, can't operate (1)"
+          },
+          "fail": "Can't send, please try again",
+          "key": {
+            "expireLine1": "Can't execute, exceeded the time limit",
+            "expireLine2_1": "Please",
+            "expireLine2_2": "Login",
+            "expireLine2_3": "With received password, Try SMS sending by yourself",
+            "expire": "Token has expired"
+          }
+        },
+        "quickRegisterThridStep": {
+          "key": {
+            "expire": "Token has expired"
+          }
+        },
+        "register": {
+          "quick-3": {
+            "expire": "Token has expired"
+          }
+        }
+      }
+    }
+  },
+  "TestimonialSection": {
+    "Customers who trust ThaiBulk SMS": "Customers who trust <span class=\"col_one\">ThaiBulk</span><span class=\"col_two_lang_en\">SMS</span>",
+    "ThaiBulkSMS is an SMS-sending service provider which makes sure that sending text messages to customers is very easy and convenient because the service allows us to send the messages by ourselves without having to go through an intermediary. Plus, reports on message sending are provided, enabling more accurate assessment of the results.": "“ThaiBulkSMS is an SMS-sending service provider which makes sure that sending text messages to customers is very easy and convenient because the service allows us to send the messages by ourselves without having to go through an intermediary. Plus, reports on message sending are provided, enabling more accurate assessment of the results.”",
+    "Syn Mun Kong Insurance PLC": "Syn Mun Kong Insurance PLC",
+    "The prices represent an excellent value considering the quality of the service. The service meets all our expectations including measurement of results, viewing of reports and controlling budgets which are adjustable in each month or until the credits run out.": "“The prices represent an excellent value considering the quality of the service. The service meets all our expectations including measurement of results, viewing of reports and controlling budgets which are adjustable in each month or until the credits run out.”",
+    "Smart One Logistics Co., Ltd.": "Smart One Logistics Co., Ltd.",
+    "The service ensures that marketing by SMS can be executed easily and speedily. The staff are also available to provide helpful advice and rapid solutions to various problems.": "“The service ensures that marketing by SMS can be executed easily and speedily. The staff are also available to provide helpful advice and rapid solutions to various problems.”",
+    "National Housing Authority of Thailand": "National Housing Authority of Thailand"
+  },
+  "EduSection": {
+    "Interesting tips and knowledge regarding SMS and marketing": "Tips and Knowledge about SMS & Marketing",
+    "View all contents": "View all",
+    "Don’t miss!! Marketing trends in 2020.": "Don’t miss!! Marketing Trends in 2020",
+    "4 ways to communicate with customers most effectively Conclude your sale with testimonials.": "4 Ways to Communicate with Customers Effectively",
+    "Simple to do but the results will exceed expectations.": "Close the Deal with Testimonials, Easy and Efficiently"
+  },
+  "CtaSection": {
+    "Improve the effectiveness of<br/>your business With SMS from ThaiBulkSMS": "Improve Your Business Effectiveness with SMS from ThaiBulkSMS",
+    "Try SMS sending for free": "Try for FREE",
+    "View package prices": "Check Prices"
+  }
+}

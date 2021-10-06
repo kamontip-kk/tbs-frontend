@@ -1,0 +1,9 @@
+{
+  "registerfinish": {
+    "title": "Created an account Successfully , Try sending free SMS now.",
+    "desc": "The system has sent username and password via SMS<br/>, can log in to try sending instantly",
+    "loginBtn": "Login",
+    "resendsms": "Didn't receive password SMS ?",
+    "linkresendsms": "Request password again"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "SMS API บริการ SMS เชื่อมต่อ API สำหรับ Developer | ThaiBulkSMS",
+    "description": "บริการ SMS API สำหรับ Developer เชื่อมต่อด้วยภาษาที่คุณเลือก ผ่านระบบ API ของ ThaiBulkSMS ปลอดภัย มั่นใจ เชื่อถือได้ เชื่อมต่อง่ายใน 5 นาที",
+    "keywords": ""
+  },
+
+  "heroSection": {
+    "<span>Simply by using SMS API</span><br />, you can send messages on your own platform.": "<span>เพียงใช้งาน SMS API</span><br />คุณก็ส่งข้อความได้บนแพลตฟอร์มของตนเอง"
+  },
+
+  "smsSection": {
+    "SMS API for Developers": "SMS API สำหรับ Developer",
+    "Connect using the language you selected with the ThaiBulkSMS API system.": "เชื่อมต่อด้วยภาษาที่คุณเลือก ด้วยระบบ API ของ ThaiBulkSMS",
+    "<li><div>Confident and reputable regarding matters of stability.</div></li><li><div>API connection security guaranteed.</div></li><li><div>Easily connect on your own within 5 minutes. </div></li><li><div>Operates in over 10 languages.</div></li>": "<li><div>มั่นใจ เชื่อถือได้ เรื่องความเสถียร</div></li><li><div>รับรองความปลอดภัยในการเชื่อมต่อ API</div></li><li><div>เชื่อมต่อง่ายด้วยตนเอง ภายใน 5 นาที</div></li><li><div>รองรับการใช้งานมากกว่า 10 ภาษา</div></li>",
+    "If you are stuck with any problems or have inquiries concerning API connection": "ติดปัญหาหรือมีข้อสงสัยเกี่ยวกับการเชื่อมต่อ API",
+    "Inquire with our specialists": "สอบถามผู้เชี่ยวชาญ"
+  },
+
+  "simpleIconSection": {
+    "SMS API Connection Manual": "คู่มือการเชื่อมต่อ SMS API",
+    "SMS API Manual": "SMS API Manual",
+    "Thai Version": "Thai Version",
+    "[Download]": "[ดาวน์โหลด]",
+    "English Version": "English Version",
+    "Connect to SMS API in a variety of languages.": "เชื่อมต่อ SMS API ได้หลากหลายภาษา",
+    "Download the SDK example in the language that you require.": "ดาวน์โหลดตัวอย่าง SDK ภาษาที่คุณต้องการ",
+    "Download an additional code example": "ดาวน์โหลดตัวอย่างโค้ดเพิ่มเติม"
+  },
+
+  "ctaSection": {
+    "I need to use SMS by connecting with the API": "ต้องการใช้ SMS โดยเชื่อมต่อ API",
+    "Test usage with a free trial": "ทดลองใช้ฟรี",
+    "Additional inquiries": "สอบถามเพิ่มเติม"
+  }
+}

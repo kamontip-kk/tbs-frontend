@@ -1,0 +1,21 @@
+{
+  "meta": {
+    "title": "สำหรับ Developer | ThaiBulkSMS",
+    "description": "รวมข้อมูลและคู่มือที่จะทำให้ Developer เริ่มต้นใช้งาน API ได้รวดเร็วยิ่งขึ้น"
+  },
+  "SimpleIconSection":{
+    "SMS API linking manual":"คู่มือการเชื่อมต่อ SMS API",
+    "Thai Manual":"คู่มือภาษาไทย",
+    "English Manual":"คู่มือภาษาอังกฤษ",
+    "[Download]":"[ดาวน์โหลด]",
+    "OTP Service Manual":"คู่มือการใช้งาน OTP Service",
+    "API References":"ดู API References",
+    "Download example":"ดาวน์โหลดตัวอย่าง",
+    "Download the SDK example in the language that you require.":"ดาวน์โหลดตัวอย่าง SDK ภาษาที่คุณต้องการ"
+  },
+  "CtaSection":{
+    "Immediately test the SMS API and OTP API":"ทดลองใช้งาน SMS API และ OTP API ได้ฟรี",
+    "Try for free":"ทดลองใช้ฟรี",
+    "Additional inquiries":"สอบถามเพิ่มเติม"
+  }
+}

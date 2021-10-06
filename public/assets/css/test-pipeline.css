@@ -1,0 +1,11 @@
+/* test pipeline */
+p.success-text {
+    margin: 5px 0 5px 0;
+    color: #25b925;
+    text-align: center;
+    font-size: 15px;
+}
+
+.fb_dialog_content iframe {
+    bottom: 100px !important;
+}

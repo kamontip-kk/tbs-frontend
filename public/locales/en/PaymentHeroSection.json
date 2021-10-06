@@ -1,0 +1,63 @@
+{
+  "paymenthero": {
+    "header": "Order package",
+    "payment": {
+      "header": "Choose a payment method",
+      "creditnow": {
+        "header": "Pay and spend credit immediately",
+        "qrcodetitle": "Pay with QR Code<br/>available all Thai banks",
+        "creditcradtitile": "Pay with Credit Card"
+      },
+      "creditwait": {
+        "header": "Pay and wait for confirmation",
+        "title": "Bank transfer",
+        "desc": "Must inform the transfer then wait for our officer to check <br/> and confirm the transfer."
+      }
+    },
+    "taxheader": "Want the tax invoice to be sent",
+    "taxaddress": "Address for shipping",
+    "changeaddressBtn": "Change shipping address",
+    "form": {
+      "contact_point": "Recipient name",
+      "address": "Address such as Number, Village, Building, Alley",
+      "street": "Road",
+      "district": "Subdistrict",
+      "county": "District",
+      "province": "Province",
+      "postcode": "Postcode",
+      "submitBtn": "Confirm change shipping address"
+    },
+    "note": {
+      "title": "Note",
+      "rule": {
+        "1": "EN• หากต้องการแก้ไขใบกำกับภาษี ให้ทำการแก้ไขภายในวันเดียวกับที่สั่งซื้อเท่านั้น",
+        "2": "EN• กรณีที่มีการหักภาษี ณ ที่จ่าย ใบเสร็จ/ใบกำกับภาษีจะถูกส่งออกหลังจากทางบริษัทได้รับหนังสือหักฯ เรียบร้อยแล้วเท่านั้น",
+        "3": "EN• กรุณาแฟกซ์สำเนาหนังสือรับรองบริษัท, ใบภ.พ.20 (ภาษีมูลค่าเพิ่ม) มาที่ 0-2798-6099 หรือ<a href=\"mailto::contact@thaibulksms.com\"><!--email_off-->contact@thaibulksms.com<!--/email_off--></a>",
+        "4": "EN• กรุณาระบุ เบอร์โทรศัพท์ติดต่อกลับที่สะดวกในกรณีทางบริษัทพบปัญหา",
+        "5": "EN• กรณีลูกค้านิติบุคคล หากชำระค่าบริการผ่านบัตรเครดิต และ บัญชี PAYSBUY จะไม่สามารถหักภาษี ณ ที่จ่าย 3% ได้",
+        "6": "EN• รายละเอียดสำหรับการหักภาษี ณ ที่จ่าย"
+      },
+      "company": {
+        "companyname": "1MOBY Company Limited",
+        "companyaddress": "<li>2521/10 Ladprao Road,</li><li>Klong Chao Khun Singh Subdistrict,</li><li>Wangthonglang District,</li><li>Bangkok, Thailand 10310</li><li>Corporate registration number : 0105550113634</li>"
+      }
+    },
+    "taxinvoice": {
+      "title": "Information for issuing tax invoices",
+      "package": "\"Standard Valued Pack\" Package",
+      "bath": "Baht",
+      "year": "Year",
+      "month": "Month",
+      "price": "Price / Message",
+      "quantity": "Message volume",
+      "life": "Usage duration",
+      "changepackage": "Change package",
+      "waitconfirmtitle": "After payment has to wait for the staff to confirm",
+      "usecodeBtn": "Apply coupon",
+      "pricepackage": "Package price",
+      "discount": "Discount from coupon",
+      "totalprice": "Total Price",
+      "confirepayment": "Confirm payment"
+    }
+  }
+}

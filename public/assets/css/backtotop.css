@@ -1,0 +1,21 @@
+/*return-to-top START CSS*/
+.back-to-top {
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #4de2c1;
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 999999999999;
+    border-radius: 50%;
+    background: #13171d;
+}
+
+.back-to-top i {
+    font-size: 1.2em;
+    color: #fff;
+}

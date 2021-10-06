@@ -1,0 +1,263 @@
+/* Modal Style */
+.ReactModal__Overlay {
+    z-index: 99999;
+    background-color: rgb(39 39 39 / 75%) !important;
+}
+
+/* password modal style */
+
+.pass-style {
+    width: 50%;
+    margin: 20% auto;
+    margin: 10% auto;
+    background-color: #fff;
+    border-radius: 12px;
+    position: relative;
+    padding: 3% 0;
+}
+
+.modal-pass {
+    padding: 6% 5% 3%;
+}
+
+button.btn-close {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    clear: both;
+    border: none;
+    background: transparent;
+}
+
+button.btn-close i {
+    font-size: 18px;
+}
+
+.form-wrap {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form__wrapper .btn {
+    border-radius: 0 15px 15px 0;
+    padding: 15px 35px;
+}
+
+.error-text {
+    margin-top: 1%;
+}
+
+h5.pass-modal-text {
+    font-size: 24px;
+}
+
+/* Login password style */
+
+h5.login-topic {
+    margin-bottom: 5%;
+    font-size: 24px;
+}
+
+p.login-content {
+    margin-bottom: 0;
+}
+
+.btn-show-login {
+    margin-top: 5%;
+}
+.login-text {
+    padding: 5% 5% 3%;
+}
+
+/* Captcha style */
+.captcha-content {
+    padding: 6% 5%;
+    /* padding: 6% 7%; */
+    width: 50%;
+    margin: 0 auto;
+}
+
+p.error-text {
+    margin: 5px 0 5px 0;
+    color: #f00;
+    text-align: center;
+    font-size: 15px;
+}
+
+p.error-text.left {
+    text-align: left;
+}
+
+p.error-text.line-height0 {
+    line-height: 0;
+}
+
+form select.hide-select {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -10px;
+}
+
+.input-twocolumn.not-align-item {
+    align-items: unset;
+}
+
+.input-twocolumn div.input-with-error {
+    width: 48%;
+}
+
+.input-twocolumn div.input-with-error input {
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.usertype-area .sub_userType,
+.usertype-area .header_select {
+    display: inline-block;
+}
+
+.userType_section .input__box::placeholder {
+    color: #777777;
+}
+
+/* error text style */
+.sms-error-text {
+    position: absolute;
+    left: 4%;
+    text-align: left;
+}
+
+.modalClass {
+    position: none;
+    border: 0px solid rgb(204, 204, 204);
+    background: transparent;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    max-width: 700px;
+    margin: 5vh auto 0;
+}
+
+.btn-close-order {
+    border: none;
+    background: transparent;
+    color: #fff;
+    margin-top: 40px;
+    margin-left: -30px;
+    margin-right: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .form-wrap {
+        /* width: 80%; */
+        width: 90%;
+    }
+    .form__wrapper .btn {
+        padding: 15px 45px;
+        font-size: 18px;
+    }
+    .captcha-content {
+        padding: 6% 4%;
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .pass-style {
+        width: 90%;
+    }
+    .modal-pass {
+        padding: 12% 5% 3%;
+    }
+    .form-wrap {
+        width: 90%;
+    }
+    .form__wrapper .btn {
+        padding: 17px 55px;
+    }
+    .login-text {
+        /* padding: 8% 5% 3%; */
+        padding: 9% 5% 5%;
+    }
+    .captcha-content {
+        padding: 6% 6%;
+    }
+    .sms-error-text {
+        position: absolute;
+        bottom: -95%;
+        left: 4%;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .pass-style {
+        /* width: 80%; */
+        width: 90%;
+        margin: 30% auto;
+    }
+    .modal-pass {
+        /* padding: 12% 5% 3%; */
+        padding: 15% 5% 3%;
+        /* padding: 18% 5% 3%; */
+    }
+    .form-wrap {
+        /* width: 80%; */
+        width: 90%;
+        /* width: 100%; */
+    }
+    .form-password-wrap {
+        margin-top: 20px;
+    }
+    .form-password-wrap input {
+        height: 54px;
+        padding: 0 15px;
+        font-size: 16px;
+        /* font-size: 14px; */
+    }
+
+    .login-text {
+        /* padding: 9% 5% 5%; */
+        padding: 15% 7% 10%;
+    }
+    h5.pass-modal-text {
+        font-size: 20px;
+        /* font-size: 16px; */
+    }
+    h5.login-topic {
+        margin-bottom: 3%;
+        font-size: 18px;
+        /* font-size: 13px; */
+    }
+
+    p.login-content {
+        font-size: 12px;
+    }
+    .btn.v2.btn-show-login {
+        font-size: 14px;
+    }
+
+    .captcha {
+        margin: 20px 0 30px;
+        max-width: 100%;
+    }
+    .captcha-content {
+        width: 60%;
+
+        padding: 7% 5% 5%;
+
+        /* width: 100%; */
+    }
+    .sms-error-text {
+        position: absolute;
+        top: 35%;
+        /* left: 3%; */
+
+        left: 4%;
+    }
+    .error-text {
+        font-size: 14px;
+    }
+}

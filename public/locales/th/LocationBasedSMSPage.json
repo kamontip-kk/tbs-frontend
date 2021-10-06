@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Location Based Service ส่งข้อความระบุสถานที่ | ThaiBulkSMS",
+    "description": "ส่ง SMS แบบระบุพื้นที่ (LBS) ไม่จำเป็นต้องมีหมายเลขโทรศัพท์ สามารถส่งได้ตามจุดพื้นที่สำคัญต่าง ๆ หรือกำหนดพื้นที่ที่ต้องการได้เอง",
+    "keywords": ""
+  },
+
+  "HeroSection": {
+    "<span>Reach your target group with a location-based method.<span><br/> Instantly send messages without having to use phone numbers.": "<span>เข้าถึงกลุ่มเป้าหมายแบบกำหนดพื้นที่</span><br />ส่งข้อความได้ทันที ไม่ต้องใช้เบอร์"
+  },
+
+  "SmsSection": {
+    "Send messages even without phone numbers when the target group enters the determined area,": "ไม่ต้องมีหมายเลขโทรศัพท์ ก็ส่งข้อความได้",
+    "making reaching your target group an easier matter. Suitable for businesses who wish to immediately stimulate sales in offline areas.": "สามารถส่งข้อความได้ทันที เมื่อกลุ่มเป้าหมายเข้าใกล้บริเวณที่กำหนดไว้ ทำให้เข้าถึงกลุ่มเป้าหมายได้ง่ายขึ้น เหมาะสำหรับธุรกิจที่ต้องการเกิดการกระตุ้นยอดขายทันทีในพื้นที่ออฟไลน์",
+    "How can customers be reached? Prove this on your own.": "เข้าถึงลูกค้าอย่างไร พิสูจน์ได้ด้วยตนเอง",
+    "Let us advise you": "ให้เราช่วยแนะนำ"
+  },
+
+  "DesSection": {
+    "Specify your desired area": "ระบุพื้นที่ได้ตามความต้องการ",
+    "Regardless of location, the area can receive messages so long as it has a phone signal. The transmission area can be specified under 2 categories": "ไม่ว่าจะอยู่ที่ไหน ก็สามารถส่งข้อความได้ เพียงแค่สถานที่นั้นมีเสาสัญญาณโทรศัพท์ โดยสามารถระบุพื้นที่การส่งได้ 2 แบบ",
+    "Areas in important locations": "พื้นที่ตามจุดสำคัญ",
+    "Messages can be sent in important areas or locations throughout the country, such as airports, shopping centers, or product exhibition centers.": "สามารถส่งข้อความได้ตามสถานที่หรือจุดสำคัญทั่วประเทศ ไม่ว่าจะเป็น สนามบิน ห้างสรรพสินค้า หรือศูนย์แสดงสินค้า เป็นต้น",
+    "Self-determined transmission areas.": "กำหนดจุดส่งด้วยตนเอง",
+    "The area can be determined by latitude, longitude, and the intended message transmission borders.": "สามารถกำหนดตำแหน่งพื้นที่เป็นละติจูด ลองจิจูด พร้อมขอบเขตบริเวณที่ต้องการส่งข้อความ"
+  },
+
+  "AdvantagesSection": {
+    "Target groups can be self-specified": "กำหนดกลุ่มเป้าหมายเองได้",
+    "Reach your customers with higher levels of effectiveness. Save your budget on messaging costs, as the targeted message demographic can be specified by categories such as sex, age, or high purchasing power individuals.": "เข้าถึงลูกค้าได้อย่างมีประสิทธิภาพมากขึ้น และประหยัดงบประมาณในการส่ง เพราะกำหนดกลุ่มเป้าหมายที่ต้องการส่งได้ เช่น เพศ อายุ หรือผู้ที่มีกำลังซื้อสูง เป็นต้น",
+    "Generate instant sales in your area": "เกิดการขายทันทีในพื้นที่ของคุณ",
+    "The messages will be immediately sent when customers enter the specified areas. This increases the chances of closing easy sales, particularly in locations with high competition such as shopping centers and display booths.": "ข้อความจะถูกส่งทันทีเมื่อลูกค้าเข้าสู่พื้นที่ที่กำหนด ทำให้เพิ่มโอกาสที่จะปิดการขายได้ง่าย  โดยเฉพาะอย่างยิ่งในพื้นที่ที่มีการแข่งขันสูง เช่น ห้างสรรพสินค้า การออกบูธจัดแสดง เป็นต้น"
+  },
+
+  "CtaSection": {
+    "Use SMS Location-Based Services to enter more of your target customers.": "มาใช้ SMS Location-Based Service<br/>เข้าถึงลูกค้าของคุณได้มากขึ้น",
+    "Additional inquiries": "สอบถามเพิ่มเติม",
+    "Or call us at <a href=\"tel:02-798-6000\">02-798-6000</a>": "หรือ ติดต่อ <a href=\"tel:02-798-6000\">02-798-6000</a>"
+  }
+}

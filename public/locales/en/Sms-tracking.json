@@ -1,0 +1,38 @@
+{
+  "meta":{
+    "title": "SMS Tracking services: Track SMS reading status | ThaiBulkSMS",
+    "description": "Track and measure individual SMS reading status. Get results instanly after SMS sending. Reduce your budgets and measure accurately. ",
+    "keywords": ""
+  },
+  "HeroSection":{
+    "Accurate SMS campaign measurement":"Measure SMS Campaign Accurately",
+    "results that prevent marketing budget wastage.":"Not Wasting Marketing Budget"
+  },
+  "SmsSection":{
+    "Real-time status checking on whether or not the recipient has read the message.":"Check Reading Status in Real Time",
+    "Free from issues where results cannot be measured after sending the SMS: sending with the Link feature through SMS Tracking allows you to accurately check the reading status, in addition to immediately following up on results after sending.":"No problem in sending SMS and cannot be measured. Because sending with Link via SMS Tracking feature will allow you to check SMS reading status precisely.",
+    "Word of mouth does not equal what the eye sees: test SMS Tracking on your own.":"Don't Believe until You Prove It, Try SMS Tracking NOW!",
+    "Free trial":"Free trial"
+  },
+  "SimpleIconSection":{
+    "Accurate campaign results measurement with tangible data":"Measure Campaign Accurately with Trustworthy Statistics",
+    "You can use data from the “Campaign results” of SMS Tracking for marketing analyses on how efficient and price-effective your SMS campaign was.":"You can use data from the “Campaign reports” of SMS Tracking to analyze marketing results of how successful your SMS campaign is and worth for your budget.",
+    "Number of SMS messages sent to the recipient":"Recipient Volume that Received SMS",
+    "Number of recipients who opened the message":"Recipient Volume that Read SMS",
+    "Number of people who opened the website from the SMS message":"Visitor traffic from SMS",
+    "Number of credits used in the campaign":"Spent Credits Volume"
+  },
+  "TrackSection":{
+    "Follow up on individual-level statuses to know which recipients are interested in you.":"Track Individual SMS Reading, Seek Your Target",
+    "SMS Tracking follows the status of message opening at the individual level, allowing you to know who frequently opens their messages and is suitable for Marketing. This reduces your costs by preventing you from wasting funds by sending messages to individuals who never open their messages.":"SMS Tracking will track a reading status individually. You will know immediately which recipient reads SMS frequently suitable for Marketing. Including budget savings by not sending SMS to people who are not interested",
+    "<span>Step-by-Step SMS Tracking</span><br/> Campaign Creation Tutorial":"Step-by-Step <span>SMS Tracking</span><br/> Campaign Creation Tutorial",
+    "Step of use":"How to Use"
+  },
+  "CtaSection":{
+    "Avoid ineffective Marketing budget wastage <br/>through SMS Tracking.": "No More Wasting Marketing Budget<br/>with SMS Tracking",
+    "Free trial": "Free trial",
+    "Or": "Or",
+    "log in": "login",
+    ", if you already have an account": ", if you already have an account"
+  }
+}

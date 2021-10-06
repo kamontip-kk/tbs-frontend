@@ -1,0 +1,23 @@
+{
+  "footer": {
+    "Services": "บริการ",
+    "Support":"ซัพพอร์ต",
+    "Ordering Methods":"วิธีสั่งซื้อ",
+    "Whitelist Request":"การขอ Whitelist",
+    "Credit Calculation":"การคำนวณเครดิต",
+    "Manual":"คู่มือการใช้งาน",
+    "Frequently Asked Questions":"คำถามที่พบบ่อย",
+    "For Developers":"คู่มือสำหรับนักพัฒนา",
+    "About Us":"เกี่ยวกับเรา",
+    "Why use ThaiBulkSMS?":"ทำไมต้อง ThaiBulkSMS",
+    "Speed and Reliable": "ทำไมเราถึงส่งเร็วและเสถียร",
+    "Cheap": "ทำไมเราถึงขาย SMS ได้ราคาถูก",
+    "Contact us":"ติดต่อเรา",
+    "Follow Us":"Follow Us",
+    "Terms and Conditions":"Terms and Conditions",
+    "Privacy Policy":"Privacy Policy",
+    "Use Cases":"ตัวอย่างการใช้",
+    "SMS Marketing":"SMS Marketing",
+    "SMS Alert":"SMS Alert"
+  }
+}

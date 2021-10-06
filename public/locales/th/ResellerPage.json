@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "Reseller ร่วมเป็นตัวแทนจำหน่ายกับ ThaiBulkSMS",
+    "description": "บริการสำหรับผู้ค้าปลีก สนใจเป็นตัวแทนจำหน่าย SMS กับเรา ได้ในราคาสุดพิเศษ และข้อเสนอต่าง ๆ มีให้อย่างไม่จำกัด",
+    "keywords": ""
+  },
+
+  "HeroSection": {
+    "<span>SMS Reseller</span><br/> a special program for ThaiBulkSMS resellers": "<span>SMS Reseller</span><br/>โปรแกรมพิเศษสำหรับตัวแทนจำหน่ายของ ThaiBulkSMS"
+  },
+
+  "SmsSection": {
+    "Valuable prices at better rates than on the web page.": "ราคาคุ้มค่า ดีกว่าหน้าเว็บ",
+    "When you become a reseller, you will receive superior Special Rate prices that are suitable for Software House or Digital Agency businesses.": "เมื่อเป็นตัวแทนจำหน่าย คุณจะได้ราคา Special Rate ที่ดีกว่า เหมาะกับธุรกิจ Software House หรือ Digital Agency",
+    "Interested in becoming a ThaiBulkSMS reseller?": "สนใจเป็นตัวแทนจำหน่ายกับ ThaiBulkSMS",
+    "Request a quotation slip": "ขอใบเสนอราคา"
+  },
+
+  "DesSection": {
+    "Select your payment method, between Prepaid or Postpaid": "เลือกวิธีชำระเงินได้ ระหว่าง Prepaid และ Postpaid",
+    "Be worry-free about budget management, as you can choose your method of payment.": "หมดกังวลเรื่องการบริหารงบประมาณ เพราะสามารถเลือกวิธีชำระเงินได้ด้วยตนเอง",
+    "<span>Add credit</span><br />(Prepaid)": "<span>เติมเครดิต</span><br />(Prepaid)",
+    "<span>Pay monthly</span><br />(Postpaid)": "<span>จ่ายแบบรายเดือน</span><br />(Postpaid)"
+  },
+
+  "AdvantagesSection": {
+    "The most special offers are granted on an Unlimited basis": "ข้อเสนอสุดพิเศษ มีให้แบบ Unlimited",
+    "No limit to the number of Sender Names and reserve accounts. These special offers are made only for resellers like you.": "ไม่จำกัดจำนวน Sender Name และจำนวนบัญชีผู้ใช้สำรอง มอบให้พิเศษสำหรับตัวแทนจำหน่ายเช่นคุณเท่านั้น"
+  },
+
+  "CtaSection": {
+    "Rest assured that you will receive prices <br/>and various special benefits that are superior to those of other places.": "มั่นใจได้ว่า คุณจะได้ราคา<br />และสิทธิพิเศษต่าง ๆ ดีกว่าที่อื่น",
+    "Additional inquiries": "สอบถามเพิ่มเติม",
+    "Or, call <a href=\"tel:02-798-6000\">02-798-6000</a>": "หรือ ติดต่อ <a href=\"tel:02-798-6000\">02-798-6000</a>"
+  }
+}

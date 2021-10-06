@@ -1,0 +1,30 @@
+{
+    "meta": {
+        "title": "SMS Alert sends messages as notifications, notifying all of the important news.",
+        "description": "SMS Alert messaging notifies important news with SMS, using set up budget, recipients can quickly reach information.",
+        "keywords": ""
+    },
+    "HeroSection": {
+        "alerthero1": "<span>Notify News via the Fastest Channel</span> by Sending SMS Alert Messages"
+    },
+    "SmsSection": {
+        "smssec1": "SMS Alert Carries Any Important News to Your Target Customers",
+        "smssec2": "One of the massaging types to notify important news to recipients. Recipients will instantly receive those before any other channels. All messages can be sent via API system or Smart SMS Console.",
+        "smssec3": "Send SMS Alert by Connecting with SMS API",
+        "smssec4": "More Details"
+    },
+    "DesSection": {
+        "dessec1": "SMS Alert Helps Your Businesses to Send Messages as You Want",
+        "dessec2": "Notify Payments or Financial Transactions",
+        "dessec3": "Notify Information and News to Personnel in Organizations",
+        "dessec4": "Notify Important Promotions or Privileges",
+        "dessec5": "Notify Parcel Tracking for E-Business",
+        "dessec6": "Notify Goods and Services Purchases or Reserves ",
+        "dessec7": "Notify Important Information to Avoid Missing any Information"
+    },
+    "CtaSection": {
+        "ctasec1": "Send SMS Alert to Your Customers Don't Let Them Miss A Single Update From You ",
+        "ctasec2": "Ask for More Details",
+        "ctasec3": "Package Prices"
+    }
+}

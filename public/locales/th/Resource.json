@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "title": "คลังข้อมูลด้าน SMS และการตลาด | ThaiBulkSMS",
+        "description": "เพิ่มความรู้และข้อมูลที่สำคัญเกี่ยวกับ SMS และ Digital Marketing ให้คุณ",
+        "keywords": ""
+    },
+    "HeroSection":{
+        "Database":"คลังข้อมูล"
+    },
+    "ContentSection":{
+        "Knowledge":"ความรู้",
+        "View all":"ดูทั้งหมด",
+        "Example Operations":"ตัวอย่างการใช้งาน",
+        "Success Stories":"เรื่องราวความสำเร็จ"
+    },
+    "CtaSection":{
+        "Increase successes with SMS Marketing <br/>through Thailand’s number 1 SMS Provider.":"เพิ่มความสำเร็จให้ SMS Marketing<br/> ด้วย SMS Provider อันดับ 1 ของไทย",
+        "Try for free":"ทดลองใช้ฟรี",
+        "View Package Prices":"ดูราคาแพ็กเกจ"
+    }
+
+}

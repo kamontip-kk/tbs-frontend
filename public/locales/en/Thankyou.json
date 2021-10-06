@@ -1,0 +1,9 @@
+{
+  "thankyou": {
+    "title": "Thank you for ordering",
+    "desc": "You can spend credits to send SMS instanly.",
+    "loginBtn": "Login",
+    "resendsms": "Didn't receive password SMS ?",
+    "linkresendsms": "Request password again"
+  }
+}

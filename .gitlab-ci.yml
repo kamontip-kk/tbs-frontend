@@ -1,0 +1,73 @@
+before_script:
+    - echo $PWD
+    - id
+
+stages:
+    - build
+    - build_internal
+    - build_production
+
+compile_internal:
+    stage: build_internal
+    environment: internal_test
+    variables:
+        GIT_SUBMODULE_STRATEGY: recursive
+    only:
+        - develop
+    tags:
+        - internal_test
+        - thaibulksms_test
+    script:
+        - pwd
+        - yarn
+        - yarn build
+        - sudo -u www-data  rsync -ar --delete . /var/www/tbs-revamp-2020/tbs_frontend_next_2020
+        - sudo -u www-data PM2_HOME=/var/www/.pm2 pm2 start tbs_frontend_next_2020
+    cache:
+        paths:
+            - node_modules/
+            - .next/
+
+compile:
+    stage: build
+    variables:
+        GIT_SUBMODULE_STRATEGY: recursive
+    only:
+        - staging
+    tags:
+        - aws
+        - thaibulksms
+    script:
+        - sudo -u www-data cp /var/www/config/thaibulksms-frontend-next-staging.env /tmp/thaibulksms-frontend-next-staging.env
+        - cp /tmp/thaibulksms-frontend-next-staging.env .env
+        - export $(grep -v '^#' .env | xargs)
+        - rimraf out
+        - yarn
+        - yarn build
+        - sudo -u www-data rsync -ar --delete out/* /var/www/staging/thaibulksms-frontend-next
+    cache:
+        paths:
+            - node_modules/
+            - .next/
+
+compile_production:
+    stage: build_production
+    variables:
+        GIT_SUBMODULE_STRATEGY: recursive
+    only:
+        - master
+    tags:
+        - aws
+        - thaibulksms
+    script:
+        - sudo -u www-data cp /var/www/config/thaibulksms-frontend-next-production.env /tmp/thaibulksms-frontend-next-production.env
+        - cp /tmp/thaibulksms-frontend-next-production.env .env
+        - export $(grep -v '^#' .env | xargs)
+        - rimraf out
+        - yarn
+        - yarn build
+        - sudo -u www-data rsync -ar out/* /var/www/thaibulksms-frontend-next
+    cache:
+        paths:
+            - node_modules/
+            - .next/

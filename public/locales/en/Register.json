@@ -1,0 +1,12 @@
+{
+  "register": {
+    "header": "Create an account for FREE trial",
+    "firstname": "First name",
+    "lastname": "Last name",
+    "phone": "Mobile number",
+    "email": "E-Mail",
+    "rule": "Accept terms and conditions of service",
+    "news": "I would like to receive news from ThaiBulkSMS via email and SMS.",
+    "createBtn": "Create account"
+  }
+}

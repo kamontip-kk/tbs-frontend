@@ -1,0 +1,3 @@
+[submodule "tbs_submodule"]
+	path = tbs_submodule
+	url = ../tbs_submodule.git

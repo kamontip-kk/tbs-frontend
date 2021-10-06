@@ -1,0 +1,8 @@
+server_addr: tool002.ngrok.1mobyline.com:54443
+trust_host_root_certs: true
+
+tunnels:
+  testtool2:
+    proto:
+      http: 3000
+      https: 3000

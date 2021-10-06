@@ -1,0 +1,11 @@
+{
+  "t1": "EN1",
+  "t2": "EN2",
+  "t3": "EN3",
+  "t4": "EN4",
+  "h1": "A simple example OK",
+  "change-locale": "Change locale",
+  "to-second-page": "To second page",
+  "error-with-status": "A {{statusCode}} error occurred on server",
+  "error-without-status": "An error occurred on the server"
+}

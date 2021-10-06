@@ -1,0 +1,408 @@
+/*--------------------------------
+            SMS Feature CSS
+---------------------------------*/
+
+.sms_section {
+    background-position: top;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.sms_text {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.sms_text h3,
+.sms_text h2 {
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.sms_text p {
+    margin-bottom: 0;
+    font-size: 18px;
+    padding: 0px 50px;
+    font-family: 'Sarabun', serif;
+    line-height: 42px;
+    margin-bottom: 100px;
+}
+
+.sms_feature {
+    padding: 0 30px;
+}
+
+.sms_feature_item {
+    text-align: center;
+    color: #fff;
+}
+
+.sms_feature_item p {
+    font-size: 18px;
+    font-family: 'Sarabun', serif;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.sms_feature_item h3,
+.sms_feature_item>div,
+.sms_feature_item p:nth-child(2) {
+    color: #31b1e7;
+    font-size: 46px;
+    line-height: 1.2;
+}
+
+.sms_feature_item>div {
+    margin-bottom: 40px;
+}
+
+.sms_feature_item h2,
+.sms_feature_item div>.account-balance {
+    color: #31b1e7;
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 75px;
+}
+
+.sms_feature_item h3,
+.sms_feature_item>div,
+.sms_feature_item p:nth-child(2)span {
+    font-size: 18px;
+}
+
+.sms_feature_item a {
+    border: 1px solid #10457a;
+    border-radius: 13px;
+    padding: 20px 50px 20px 30px;
+    display: inline-flex;
+    font-size: 18px;
+    color: #fff;
+    line-height: 43px;
+}
+
+.sms_feature_item a img {
+    margin-right: 25px;
+}
+
+.sms_form {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.2);
+    padding: 60px 30px 70px 50px;
+    transform: translateY(80px);
+}
+
+.sms_form_text h4 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    margin: 10px 0 0 0;
+}
+
+.sms_form_text p {
+    font-size: 18px;
+    font-family: 'Sarabun', serif;
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+.sms_form_field {
+  text-align: center;
+}
+
+.sms_form_field input {
+    width: 65%;
+    border: 3px solid #5b6e80;
+    height: 60px;
+    border-radius: 14px;
+    padding: 15px 25px 15px 30px;
+}
+
+.sms_form_field button {
+    width: 30%;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+      .sms_text h2 {
+        font-size: 34px;
+      }
+      .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+        font-size: 40px;
+      }
+      .sms_feature_item > div ,.sms_feature_item p:nth-child(2){
+        font-size: 40px;
+        line-height: 1.2;
+      }
+      .sms_form_text h4 {
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+      .sms_form {
+        transform: translateY(55px);
+      }
+      .sms_form_text p {
+        font-size: 18px;
+        font-family: "Sarabun", serif;
+        line-height: 1.2;
+        margin-bottom: 0;
+      }
+      .sms_text p {
+        margin: 30px auto 70px;
+        font-size: 18px;
+        line-height: 1.8;
+      }
+      .sms_section {
+        height: 600px;
+      }
+      .sms_text {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 50px;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  ul.api-des {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 20px;
+  }
+  ul.api-des li {
+    margin: 5px 0px 5px 35px;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+  }
+  .sms_form_text h4 {
+    font-size: 27px;
+  }
+  
+  .sms_form_text {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  
+  .sms_form_field {
+    text-align: center;
+  }
+  
+  .sms_section.v2 .sms_form,
+  .sms_section.v3 .sms_form {
+    padding: 60px 80px 60px 80px;
+  }
+  .sms_section {
+    height: 750px;
+  }
+  .sms_feature_item a {
+    margin-top: 30px;
+  }
+
+  .sms_form_text {
+    margin-bottom: 45px;
+  }
+  .sms_form_text h4 {
+    font-size: 27px;
+  }
+
+  .sms_form_text {
+    text-align: center;
+  }
+
+  .sms_form_field {
+    text-align: center;
+  }
+  .sms_section.v2 .sms_form,
+  .sms_section.v3 .sms_form {
+    padding: 60px 30px 60px 30px;
+  }
+  .sms_text p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .sms_text {
+    margin-bottom: 70px;
+  }
+  .sms_section.v3 {
+    background: #eff3f7;
+    padding: 100px 0 80px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+
+  ul.api-des {
+    /* width: 60%; */
+    /* margin-left: 25%; */
+
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 20px;
+  }
+  ul.api-des li {
+    /* font-size: 16px; */
+
+    margin: 5px 0px 5px 35px;
+    padding-left: 5px;
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+  }
+
+  .sms_section {
+    height: 550px;
+  }
+  .sms_section.productsms {
+    height: 830px;
+  }
+  .sms_section.v2,
+  .sms_section.v3 {
+    padding: 50px 0 0;
+    margin-bottom: 0px;
+  }
+
+  .sms_section.v2 .sms_form,
+  .sms_section.v3 .sms_form {
+    /* padding: 40px 30px 40px 30px; */
+    padding: 60px 30px 60px 30px;
+    -webkit-transform: translateY(58px);
+    -ms-transform: translateY(58px);
+    transform: translateY(58px);
+  }
+
+  .sms_form {
+    /* padding: 50px 30px 50px 30px; */
+    -webkit-transform: translateY(25px);
+    -ms-transform: translateY(25px);
+    transform: translateY(25px);
+
+    width: 90%;
+    margin: 0 auto;
+  
+    padding: 50px 30px 45px 30px;
+
+    /* width: 100%;
+    padding: 40px 20px 40px 20px; */
+  }
+
+  .sms_form_field {
+    text-align: center;
+  }
+  .sms_form_field input {
+    width: 100%;
+    /* margin-bottom: 30px; */
+    /* margin-bottom: 65px; */
+
+    border: 2px solid #5b6e80;
+    height: 50px;
+    border-radius: 14px;
+    padding: 15px 20px 15px;
+
+    font-size: 14px;
+    margin-bottom: 55px;
+  }
+  .sms_form_field input:placeholder {
+    text-align: center;
+  }
+
+  .sms_form_field button {
+    width: 50%;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .sms_form_text {
+    /* margin-bottom: 20px; */
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .sms_form_text h4 {
+    /* font-size: 22px; */
+    /* font-size: 18px; */
+    text-align: center;
+
+    font-size: 16px;
+    margin-bottom: 9px;
+  }
+
+  .sms_form_text p {
+    /* font-size: 18px; */
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.6;
+    width: 70%;
+    margin: 0 auto;
+
+    /* width: 80%; */
+  }
+  .sms-error-text {
+    font-size: 12px;
+  }
+
+  .sms_text {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .sms_text h2 {
+    font-size: 24px;
+  }
+
+  .sms_text p {
+    font-size: 14px;
+    padding: 0;
+    line-height: 22px;
+    margin-bottom: 50px;
+  }
+
+  .sms_feature_item {
+    margin-bottom: 30px;
+  }
+  .sms_feature_item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .sms_feature_item Link a {
+    padding: 14px 40px 14px 30px;
+    font-size: 14px;
+    line-height: 43px;
+  }
+
+  .sms_feature_item Link a div Image {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 5px;
+  }
+
+  .sms_feature_item h2, .sms_feature_item div > .account-balance, .account-balance {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+  .sms_feature_item h3, .sms_feature_item > div ,.sms_feature_item p:nth-child(2){
+    color: #31b1e7;
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .btn.v2 {
+    min-width: 150px;
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+}

@@ -1,0 +1,63 @@
+/*----------------------------
+        Partner CSS
+------------------------------*/
+
+.partner_section {
+    border-bottom: 2px solid #bccbd9;
+    padding: 50px 0;
+}
+
+.partner_title {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #5b6e80;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.partner_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partner_item .size-img {
+    width: 80%;
+}
+
+.partner_section .owl-carousel .owl-item img {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.owl-carousel .owl-item img {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .partner_section .owl-carousel .owl-item img {
+        width: 80%;
+        text-align: center;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .partner_section {
+        padding: 15px 0 50px;
+      }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .partner_title {
+        font-size: 15px;
+      }
+      .partner_section .owl-carousel .owl-item img {
+        /* width: 100%; */
+        text-align: center;
+        margin: 0px auto;
+      }
+}

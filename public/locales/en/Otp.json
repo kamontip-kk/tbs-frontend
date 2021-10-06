@@ -1,0 +1,40 @@
+{
+  "meta":{
+    "title": "Ready-to-Use OTP services: Identity verification SMS | ThaiBulkSMS",
+    "description": "Ready-to-Use OTP SMS Sending. Send identity verification SMS to your client for online transaction security.",
+    "keywords": ""
+  },
+  "HeroSection":{
+    "An <span>OTP transmission service</span> that is ready to use<br/>, increases security and does<br/> not require additional programming.":"<span>Ready-to-Use OTP</span> Service<br/>No Programming Skills Required",
+    "This feature is only available for the <span>Corporate Package.</span>":"This feature is available only for <span>Corporate SMS package</span>"
+  },
+  "SmsSection":{
+    "Easy checkups: in only a few clicks,<br/> the OTP can be sent.":"Easy Setup with Just a few Clicks",
+    "You can send OTP self-verification messages to increase customer security without writing additional programs. Simply set the values for only a few steps, and a code will be ready for use with the API, which quickens Developer workflows.":"You can send a OTP SMS to increase your customers security without any additional programming. Just a few steps to set up, you will immediately get a code to use with the API. Help developers work faster",
+    "Immediately test the ready-to-use OTP transmission system":"Try Ready-to-use OTP System NOW",
+    "Try for free":"Try NOW",
+    "Login":"Login"
+  },
+  "SimpleIconSection":{
+    "The OTP message can be set as desired":"Adjust OTP Sending as Needed",
+    "Your business name can be set as desired":"Enter Your Business Name",
+    "The number of digits can be set as desired":"Set OTP Code Length",
+    "The message Template can be set as desired":"Select Message Templates",
+    "The password Expiration time can be set as desired":"Set OTP Expired Time",
+    "The system can function in a variety of languages.":"Support Multiple Languages",
+    "Learn more about the OTP API":"Learn more about OTP API"
+  },
+  "TrackSection":{
+    "Know the full confirmation status of every entry.":"Get Verification Status <br/>for All Sending",
+    "OTP password self-confirmation statuses are fully viewable for every entry, whether they are successful or have expired.":"You can check verification status that has been sent for all transaction. Whether successful or expired.",
+    "Operation of the OTP transmission system can only be used on the <span>Corporate SMS package</span>":"Ready-to-Use OTP is available only for <span>Corporate SMS package</span>",
+    "Usage Manual":"Manual",
+    "If you have your OTP, you can connect with API as well.":"If you have your OTP system, you can connect with API as well",
+    "Learn more":"Learn more"
+  },
+  "ctaSection": {
+    "Send OTP with a ready-to-use system that does not require time wasted in programming.": "Send OTP with  Ready-to-use System, <br/>Don't Waste Time Programming",
+    "Try for free": "Try for FREE",
+    "Login": "Login"
+  }
+}

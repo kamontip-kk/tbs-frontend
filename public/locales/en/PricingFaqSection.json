@@ -1,0 +1,44 @@
+{
+  "pricingfaq": {
+    "header": "FAQ",
+    "faq": {
+      "1": {
+        "title": "What are the differences between Standard SMS and Corporate SMS packages?",
+        "desc": "<b>The Standard SMS</b><br/> package includes benefits such as cheaper costs of SMS sending, easy SMS sending, reports on SMS sending, a complete set of basic features, and tools for measuring campaign results.<br/><b>The Corporate SMS</b><br/>package includes every feature of the Standard SMS package while also providing additional features which are: access to a ready-to-use OTP sending system, credit refunds if the messages fail to reach the recipients, and the ability to check the sending status in a more detailed manner."
+      },
+      "2": {
+        "title": "What payment methods are available?",
+        "desc": "We accept 3 payment methods:<br/>1. Scanning the QR code<br/>2. Online credit card payment<br/>3. Bank transfer<br/>*In case of a bank transfer, the customer needs to notify us of the transfer on the website every time."
+      },
+      "3": {
+        "title": "Which payment methods allow instant usage of credits?",
+        "desc": "Scanning the QR code and online credit card payment."
+      },
+      "4": {
+        "title": "After making the bank transfer, how can I notify you of the transfer?",
+        "desc": "You can notify us via the website instantly by following these steps:<br/>1. After logging in, hover your mouse over the “add credit” menu. An option named “notification of payment” will be available.<br/>2. Tell us the details of the transfer and attach the payment slip or other kinds of evidence of the transfer. Once our staff members have confirmed the details, the credits will be added to your account."
+      },
+      "5": {
+        "title": "How can I request a tax invoice?",
+        "desc": "Please send your user name, details of your company, name/address, and the taxpayer’s identification number to <a href = \"mailto: contact@thaibulksms.com\">contact@thaibulksms.com</a>"
+      },
+      "6": {
+        "title": "What if I wish to purchase more SMS sending credits than specified in the packages?",
+        "desc": "Please contact our sales team at <a href = \"https://www.thaibulksms.com/contact\">https://www.thaibulksms.com/contact</a> and provide us with your desired number of SMS and the type of usage."
+      },
+      "7": {
+        "title": "Can I use both the Standard SMS and Corporate SMS packages at the same time?",
+        "desc": "They can be used at the same time but the credits are separate.<br/> <b>When using the web-based interface</b>, you can switch packages in the menu on the right side of <a href = \"https://member.thaibulksms.com\">https://member.thaibulksms.com</a>.<br/> <b>When using API</b>, add the parameter &force=standard to force the message to be sent using the Standard package and add the parameter &force=premium to force the message to be sent using the Corporate package."
+      },
+      "8": {
+        "title": "What is the maximum number of characters allowed per 1 message, and are there any other restrictions?",
+        "desc": "For messages in <b>Thai</b>, 70 characters are allowed per 1 credit (1 message)/number. Messages with 71-134 characters cost 2 credits (2 consecutive messages)/number. Messages with 135-201 characters cost 3 credits (3 consecutive messages)/number. <br>For messages in <b>English</b>, 160 characters are allowed per 1 credit (1 message)/number. Messages with 161-306 characters cost 2 credits (2 messages)/number. Messages with 307-459 characters cost 3 credits (3 messages)/number.<br>*A message with both Thai and English characters will be counted as a Thai message.<br>*Caution: if an English message contains special characters that exist in the Thai keyboard, the message will be counted as a Thai message for crediting purposes."
+      }
+    },
+    "question": "Still Have Questions?",
+    "questiontitle": "Choose your convenient channel to contact us",
+    "telBtn": "CONTACT US",
+    "contactBtn": "CALL BACK SERVICE",
+    "fbBrn": "E-MAIL"
+  }
+}

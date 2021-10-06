@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Location Based Service: send location-specified messages | ThaiBulkSMS",
+    "description": "Send location-based SMS (LBS) messages that do not require phone numbers. Messages can be sent according to various important areas or can be set in your specified areas.",
+    "keywords": ""
+  },
+
+  "HeroSection": {
+    "<span>Reach your target group with a location-based method.<span><br/> Instantly send messages without having to use phone numbers.": "<span>Reach Your Target Group with Location-based</span><br/>Send SMS Instantly without Phone Number"
+  },
+
+  "SmsSection": {
+    "Send messages even without phone numbers when the target group enters the determined area,": "Send SMS without Phone Number",
+    "making reaching your target group an easier matter. Suitable for businesses who wish to immediately stimulate sales in offline areas.": "Send SMS immediately when the target group approaches the specified area. Easier to reach the target audience. Suitable for businesses that want to stimulate sales immediately in the offline area.",
+    "How can customers be reached? Prove this on your own.": "How reach customers? Prove by yourself.",
+    "Let us advise you": "Let us advise you"
+  },
+
+  "DesSection": {
+    "Specify your desired area": "Specify Your Target Area",
+    "Regardless of location, the area can receive messages so long as it has a phone signal. The transmission area can be specified under 2 categories": "No matter where they are, that area can receive SMS as long as there is a phone signal. And can specify 2 types of sending areas",
+    "Areas in important locations": "Key Area",
+    "Messages can be sent in important areas or locations throughout the country, such as airports, shopping centers, or product exhibition centers.": "Send SMS to targets in key areas or locations across the country such as airports, shopping centers, or exhibition centers.",
+    "Self-determined transmission areas.": "Self-determined Area",
+    "The area can be determined by latitude, longitude, and the intended message transmission borders.": "The area can be determined by latitude, longitude, and intended messaging scope."
+  },
+
+  "AdvantagesSection": {
+    "Target groups can be self-specified": "Specify Target Group",
+    "Reach your customers with higher levels of effectiveness. Save your budget on messaging costs, as the targeted message demographic can be specified by categories such as sex, age, or high purchasing power individuals.": "Reach your customers more efficiently and save your budget by specify target group such as gender, age, purchasing power, etc.",
+    "Generate instant sales in your area": "Generate instant sales in your area",
+    "The messages will be immediately sent when customers enter the specified areas. This increases the chances of closing easy sales, particularly in locations with high competition such as shopping centers and display booths.": "SMS will be sent immediately when customers enter the specified area. Makes it easy to increase the opportunity to close the deal. Especially in highly competitive areas such as shopping centers, exhibiting booths, etc."
+  },
+
+  "CtaSection": {
+    "Use SMS Location-Based Services to enter more of your target customers.": "Reach More Your Customers with <br/> SMS Location-Based Services",
+    "Additional inquiries": "Ask More",
+    "Or call us at <a href=\"tel:02-798-6000\">02-798-6000</a>": "or Call us at <a href=\"tel:02-798-6000\">02-798-6000</a>"
+  }
+}

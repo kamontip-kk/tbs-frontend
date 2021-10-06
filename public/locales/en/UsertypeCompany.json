@@ -1,0 +1,24 @@
+{
+  "usertypecompany": {
+    "header": "Enter details for placing the order",
+    "title": "Business registration type <span>Juristic Person</span>",
+    "form": {
+      "title": "Information for issuing tax invoices",
+      "desc": "Search Taxpayer identification numbe to fill in other data automatically",
+      "taxnumber": "Taxpayer identification number : TIN (13 Digits)",
+      "searchBtn": "Search",
+      "address": "Address such as Number, Village, Building, Alley",
+      "street": "Road",
+      "district": "Sub-district",
+      "county": "District",
+      "province": "Province",
+      "postcode": "Postcode"
+    },
+    "taxinvoiceaddress": {
+      "title": "Address for shipping tax invoice",
+      "radio1": "Use this address for issuing tax invoices",
+      "radio2": "Use other address",
+      "saveBtn": "Save, next"
+    }
+  }
+}

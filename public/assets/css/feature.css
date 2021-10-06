@@ -1,0 +1,213 @@
+/*----------------------------
+        Featurer CSS
+------------------------------*/
+
+.feature_section {
+    padding: 80px 0;
+}
+
+.single_feature_item {
+    text-align: center;
+}
+
+.single_feature_item .size-img Image {
+    max-width: 40%;
+}
+
+.single_feature_text h4,
+.single_feature_text h3 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #08101f;
+}
+
+.single_feature_text p {
+    font-size: 18px;
+    color: #5b6e80;
+    font-family: 'Sarabun', serif;
+    line-height: 1.4;
+}
+
+.single_feature_text {
+    margin: 40px 0;
+}
+
+.whyTBS {
+    padding: 0 30px;
+}
+
+.whyTBS div Image {
+    width: 120px;
+}
+
+/*----------------------------
+       Feature CheckIcon CSS
+------------------------------*/
+.feature_checklist_wrap {
+  margin: 40px 0 80px;
+}
+
+.feature_checklist {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 25px;
+  padding: 20px 25px;
+  border: 3px solid #f1f4f8;
+}
+
+.check_text p {
+  font-size: 18px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+
+.check_img {
+  margin-right: 20px;
+}
+
+.single_lang_wrap {
+  margin-top: 60px;
+}
+
+.single_lang {
+  margin: 0 0 60px 0;
+  text-align: center;
+}
+
+.lang_link {
+  color: #31b1e7;
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 20px;
+  display: block;
+}
+
+.lang_link img {
+  margin-left: 6px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    .mt-5,
+    .my-5 {
+        margin-top: 2rem !important;
+    }
+    .single_feature_text {
+        margin: 30px 0;
+    }
+    .single_feature_text h3 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+      }
+      .single_feature_text p {
+        font-size: 16px;
+        line-height: 1.4;
+      }
+      .single_feature_item span img{
+        width: 80px;
+      }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .whyTBS div Image {
+    width: 100px;
+  }
+  .single_feature_text h3, .single_feature_text h4{
+    font-size: 16px;
+  }
+  .single_feature_text p{
+    font-size: 13px;
+  }
+  .single_feature_item img {
+    max-width: 80%;
+  }
+  .feature_checklist {
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+      .col-md-3.whyTBS {
+        width: 46%;
+        margin: 0 auto;
+        padding: 0px 0px;
+      }
+      .section_title{
+        font-size: 24px;
+      }
+      .single_feature_text h3 {
+        font-size: 16px;
+      }
+      .single_feature_text p {
+        font-size: 12px;
+        color: #5b6e80;
+        font-family: "Sarabun", serif;
+        line-height: 1.4;
+      }
+      .single_feature_item div Image {
+        max-width: 50%;
+        margin: 5px auto;
+      }
+      .feature_section {
+        padding: 50px 0;
+      }
+    
+      .feature_section .row.mt-5 {
+        margin-top: 0;
+      }
+      .single_feature_text {
+        margin: 20px 0;
+      }
+      .mt-5,
+      .my-5 {
+        margin-top: 2rem !important;
+      }
+
+      .feature_checklist {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        border-radius: 25px;
+        padding: 15px 20px;
+        border: 3px solid #f1f4f8;
+      }
+      
+      .feature_checklist_wrap {
+        margin: 20px 0 20px;
+      }
+      .check_img {
+        margin-right: 15px;
+        width: 10%;
+      }
+      .single_lang {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 20px;
+      }
+      .single_lang_wrap {
+        margin-top: 30px;
+      }
+    
+      .single_lang.dev-page {
+        height: 100px;
+      }
+    
+      .single_lang.why-brand {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 20px;
+      }
+    
+      .lang_link {
+        /* font-size: 18px; */
+
+        font-size: 14px;
+        margin-top: 0px;
+        margin: 20px 0 0;
+      }
+}

@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "user": {
+      "fail": "Username / Password is incorrect",
+      "blocked": "The account is blocked",
+      "multisession": "multisession"
+    }
+  },
+  "system": {
+    "failure": "Can't login, please try again"
+  },
+  "Bad Request": "Username / Password is incorrect",
+  "400": "Can't login, please try again"
+}

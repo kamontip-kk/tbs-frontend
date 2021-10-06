@@ -1,0 +1,111 @@
+{
+  "meta":{
+    "title": "Contact our team | ThaiBulkSMS",
+    "description": "If you have any problems about products, packages, sending SMS, you can contact us immediately. We are ready to advise and take care of you.",
+    "keywords": ""
+  },
+  "HeroSection":{
+    "Contact us":"Contact us",
+    "Contact the sales department":"Contact sales team",
+    "Contact support":"Contact support team",
+    "1MOBY Company Limited":"1MOBY Company Limited",
+    "2521/10 Ladprao Road, Klong Chao Khun Singh Subdistrict, Wangthonglang District, Bangkok 10310":"2521/10 Ladprao Road, Klong Chao Khun Singh Subdistrict, Wangthonglang District, Bangkok, Thailand 10310",
+    "0-2798-6000 extension 0":"0-2798-6000 ext. 0",
+    "0-2798-6099":"0-2798-6099",
+    "8.30 – 17.30 hrs. (Monday – Friday)":"8.30 AM - 5.30 PM GMT+7 (Mon. - Fri.)",
+    "Real first name":"First name",
+    "Surname":"Last name",
+    "Company":"Company",
+    "Email":"E-mail",
+    "Phone number":"Phone number",
+    "Initial details":"Detail",
+    "Confirm your contact from ThaiBulkSMS":"Confirm to ThaiBulkSMS contact you back",
+    "validate": {
+      "firstname": {
+        "required": "Please enter First name"
+      },
+      "lastname": {
+        "required": "Please enter Last name"
+      },
+      "phone": {
+        "required": "Please enter Phone number",
+        "pattern": "Please enter phone number correctly (number only)"
+      },
+      "email": {
+        "required": "Please enter E-mail",
+        "pattern": "Please enter e-mail correctly (e-mail only)"
+      },
+      "confirm": {
+        "required": "Please confirm : Acception"
+      },
+      "recaptcha": {
+        "required": "Please confirm : I'm not a robot"
+      },
+      "desc": {
+        "required": "Please enter Detail"
+      }
+    },
+    "Swal": {
+      "titleerror": "Can't send",
+      "decseerror": "Please try again",
+      "titlesuccess": "We have received message.",
+      "decsesuccess": ""
+    },
+    "Not Found": "Something went wrong <br/>Please wait a moment and try again",
+    "internal": {
+      "server": {
+        "error": "Something went wrong <br/>Please wait a moment and try again"
+      }
+    },
+    "contactdto": {
+      "contactType": { "invalid": "Please select contact team" },
+      "firstname": {
+        "invalid": "Enter Thai or English alphabet only"
+      },
+      "lastname": {
+        "invalid": "Enter Thai or English alphabet only"
+      },
+      "tel": {
+        "invalid": "Mobile number is incorrect, please type with number (maximum: 10 digits)"
+      },
+      "email": { "invalid": "Enter e-mail only" },
+      "message": { "invalid": "Enter Thai or English alphabet only" }
+    },
+    "recaptcha": { "invalid": "Please verify your identity" },
+    "activecampaigncontactdto": {
+      "email": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "firstName": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "lastName": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "phone": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "title": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "description": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "contact": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "value": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "currency": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "group": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      },
+      "stage": {
+        "invalid": "Something went wrong <br/>Please wait a moment and try again"
+      }
+    }
+  }
+}

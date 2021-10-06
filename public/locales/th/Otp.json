@@ -1,0 +1,40 @@
+{
+  "meta":{
+    "title": "บริการ OTP Ready-to-Use รหัสยืนยันตัวตน | ThaiBulkSMS",
+    "description": "บริการส่ง OTP Ready-to-Use ส่งรหัสยืนยันตัวตนที่พร้อมใช้งานได้ทันที เพื่อความปลอดภัยในการทำธุรกรรมออนไลน์",
+    "keywords": ""
+  },
+  "HeroSection":{
+    "An <span>OTP transmission service</span> that is ready to use<br/>, increases security and does<br/> not require additional programming.":"<span>ระบบส่ง OTP</span> พร้อมใช้ <br/>เพิ่มความปลอดภัย<br/>ไม่ต้องเขียนโปรแกรมเพิ่ม",
+    "This feature is only available for the <span>Corporate Package.</span>":"ฟีเจอร์นี้สำหรับ <span>Corporate Package</span>เท่านั้น"
+  },
+  "SmsSection":{
+    "Easy checkups: in only a few clicks,<br/> the OTP can be sent.":"เซ็ตอัพง่าย ไม่กี่คลิก<br/> ก็สามารถส่ง OTP ได้ทันที",
+    "You can send OTP self-verification messages to increase customer security without writing additional programs. Simply set the values for only a few steps, and a code will be ready for use with the API, which quickens Developer workflows.":"คุณสามารถส่งข้อความ ยืนยันตัวตน (OTP) เพื่อเพิ่มความปลอดภัยให้ลูกค้าได้ โดยไม่ต้องเขียนโปรแกรมเพิ่ม เพียงตั้งค่าไม่กี่ขั้นตอน ก็จะได้โค้ด สำหรับนำไปใช้กับ API ได้ทันที ช่วยให้ Developer ทำงานเร็วขึ้น",
+    "Immediately test the ready-to-use OTP transmission system":"ทดลองใช้งานระบบส่ง OTP พร้อมใช้ ได้ทันที",
+    "Try for free":"ทดลองใช้ฟรี",
+    "Login":"ล็อกอิน"
+  },
+  "SimpleIconSection":{
+    "The OTP message can be set as desired":"ตั้งค่าส่งข้อความ OTP ได้ตามต้องการ",
+    "Your business name can be set as desired":"ใส่ชื่อธุรกิจของคุณได้",
+    "The number of digits can be set as desired":"ตั้งค่าจำนวนตัวเลขของรหัสได้",
+    "The message Template can be set as desired":"เลือก Template ข้อความได้",
+    "The password Expiration time can be set as desired":"กำหนดระยะเวลา Expire ของรหัสได้",
+    "The system can function in a variety of languages.":"สามารถใช้งานได้ หลากหลายภาษา",
+    "Learn more about the OTP API":"เรียนรู้เพิ่มเติมเกี่ยวกับ OTP API"
+  },
+  "TrackSection":{
+    "Know the full confirmation status of every entry.":"รู้ผลสถานะการยืนยันตัวตนครบทุกรายการ",
+    "OTP password self-confirmation statuses are fully viewable for every entry, whether they are successful or have expired.":"สามารถดูสถานะการยืนยันตัวตนผ่านรหัส OTP ที่ส่งไปได้ครบทุกรายการ ไม่ว่าจะยืนยันสำเร็จ หรือรหัสหมดอายุ",
+    "Operation of the OTP transmission system can only be used on the <span>Corporate SMS package</span>":"ใช้งานระบบส่ง OTP พร้อมใช้ ได้เฉพาะ แพ็กเกจ<span> Corporate SMS </span>เท่านั้น",
+    "Usage Manual":"คู่มือการใช้งาน",
+    "If you have your OTP, you can connect with API as well.":"แต่ถ้าหากคุณมีระบบส่ง OTP อยู่แล้ว ก็สามารถนำมาเชื่อมต่อ API ได้เช่นกัน",
+    "Learn more":"เรียนรู้เพิ่มเติม"
+  },
+  "ctaSection": {
+    "Send OTP with a ready-to-use system that does not require time wasted in programming.": "ส่ง OTP ด้วยระบบพร้อมใช้ ไม่ต้องเสียเวลาเขียนโปรแกรมเอง",
+    "Try for free": "ทดลองใช้ฟรี",
+    "Login": "ล็อกอิน"
+  }
+}

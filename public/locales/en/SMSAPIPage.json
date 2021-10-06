@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "title": "SMS API for Sending SMS. Ready for Developer",
+    "description": "SMS API for Developer. Connect with languages as you need through ThaiBulkSMS API, Secured, Reliable, Easy to connect in 5 mins.",
+    "keywords": ""
+  },
+
+  "heroSection": {
+    "<span>Simply by using SMS API</span><br />, you can send messages on your own platform.": "<span>Connect via SMS API</span><br/>you can send messages on your platform"
+  },
+
+  "smsSection": {
+    "SMS API for Developers": "SMS API for Developer",
+    "Connect using the language you selected with the ThaiBulkSMS API system.": "Connect with ThaiBulkSMS API",
+    "<li><div>Confident and reputable regarding matters of stability.</div></li><li><div>API connection security guaranteed.</div></li><li><div>Easily connect on your own within 5 minutes. </div></li><li><div>Operates in over 10 languages.</div></li>": "<li><div> Professional, Reliable, Stable</div></li><li><div>Guaranteed API connection security</div></li><li><div>Connect easily by yourself in 5 minutes</div></li><li><div>API supports over 10 languages</div></li>",
+    "If you are stuck with any problems or have inquiries concerning API connection": "Stuck in API Problems or Questions ?",
+    "Inquire with our specialists": "Ask Expert"
+  },
+
+  "simpleIconSection": {
+    "SMS API Connection Manual": "SMS API Connection Manual",
+    "SMS API Manual": "SMS API Manual",
+    "Thai Version": "Thai Version",
+    "[Download]": "[Download]",
+    "English Version": "English Version",
+    "Connect to SMS API in a variety of languages.": "Connect with SMS API in Multi-Languages",
+    "Download the SDK example in the language that you require.": "Download SDK examples in your preferred language",
+    "Download an additional code example": "Download an additional code example"
+  },
+
+  "ctaSection": {
+    "I need to use SMS by connecting with the API": "Need to send SMS by connecting with API",
+    "Test usage with a free trial": "Try for FREE",
+    "Additional inquiries": "Ask More"
+  }
+}

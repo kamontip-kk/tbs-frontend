@@ -1,0 +1,121 @@
+/*----------------------------
+    Service  CSS
+------------------------------*/
+
+.service_section {
+    padding: 100px 0;
+    position: relative;
+}
+
+.service_section:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    content: '';
+    background-image: linear-gradient(to bottom, #e7ebf0, #eef0f4, #f4f5f7, #fafafb, #ffffff);
+    z-index: -1;
+}
+
+.service_img {
+    text-align: center;
+    margin: 20px;
+}
+
+.serviceTBS {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.serviceTBS .serviceDetail {
+    flex: initial;
+    width: 25%;
+    margin: 2% 3%;
+}
+
+.serviceTBS .serviceDetail .size-img {
+    width: 50%;
+    margin: 20px 0px;
+}
+
+.service_text .serviceTBS h3,
+.service_text .serviceTBS h2 {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: left;
+    display: block;
+    min-width: 200px;
+}
+
+.service_text .serviceTBS p {
+    color: #5b6e80;
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 10px 0;
+    font-family: 'sarabun';
+}
+
+.service_text .serviceTBS a {
+    font-size: 14px;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    color: #31b1e7;
+}
+
+.service_text .serviceTBS a:hover {
+    text-decoration: underline;
+}
+
+.service_text .serviceTBS h3,
+.service_text .serviceTBS h2 span {
+    color: #31b1e7;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+    div.row.align-items-center{
+        width: 1024px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .service_img {
+        text-align: center;
+        margin: 20px auto;
+        width: 50%;
+      }
+      .serviceTBS, .service_text{
+          width: 690px;
+      }
+      .serviceTBS .serviceDetail div Image {
+        width: 50%;
+        margin: 15px auto;
+      }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 767px) {
+    .service_section {
+        padding: 40px 0;
+        position: relative;
+      }
+      .service_img {
+        text-align: center;
+        margin: 20px auto;
+        width: 80%;
+      }
+      .serviceTBS .serviceDetail {
+        flex: initial;
+        width: 40%;
+        margin: 2% 3%;
+      }
+      .serviceTBS .serviceDetail h3{
+          font-size: 16px;
+      }
+}

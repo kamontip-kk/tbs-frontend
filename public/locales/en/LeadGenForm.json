@@ -1,0 +1,20 @@
+{
+    "HeadingText": "Free! Creative Practices to Boost Your Sale Through Marketing SMS",
+    "LeadText": "Complete Guide SMS delivery techniques",
+    "Email": "Email",
+    "Phone": "Phone Number",
+    "Download": "Download Free E-Book",
+    "Error": {
+        "InvalidPhoneNumber": "Invalid PhoneNumber Format",
+        "InvalidEmail": "Invalid Email Format"
+    },
+    "transferleadcustomerinfodto": {
+        "phoneNumber": {
+            "invalid": "Invalid PhoneNumber Format"
+        },
+        "email": {
+            "invalid": "Invalid Email Format"
+        }
+    },
+    "CompletedText": "Thank you for your interest, You will receive E-Book in your given email address, and a password to unlock via SMS"
+}

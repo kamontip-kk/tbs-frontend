@@ -1,0 +1,68 @@
+{
+    "meta":{
+        "title": "ผู้เชี่ยวชาญบริการด้าน SMS มานานกว่า 10 ปี | ThaiBulkSMS",
+        "description": "ผู้ให้บริการส่ง SMS อันดับ 1 ของไทย มั่นใจได้ว่าคุณจะได้รับสิ่งที่ดีที่สุด และคุณยังสามารถส่งข้อความได้ด้วยตนเอง โดยไม่ผ่านตัวกลาง",
+        "keywords": ""
+    },
+    "HeroSection":{
+        "Why should I use the SMS messaging service of <span>ThaiBulkSMS?</span>":"ทำไมถึงควรใช้บริการส่ง SMS <br/>ของ <span>ThaiBulkSMS</span>"
+    },
+    "SmsSection":{
+        "As Thailand’s Number 1 SMS Communication Platform, which can be personally confirmed,":"SMS Communication Platform อันดับ 1 ของไทย มีตัวตนตรวจสอบได้ ",
+        "ThaiBulkSMS provides the SMS Communication Platform that is certified by the National Broadcasting and Telecommunications Commission. We have been operating for over 10 years, so you can certainly rest assured in the quality of our service.":"ThaiBulkSMS เป็นผู้ให้บริการ SMS Communication Platform ที่ได้รับการรับรองจาก กสทช. ที่เปิดให้บริการมามากกว่า 10 ปี คุณจึงวางใจในคุณภาพบริการของเราได้อย่างแน่นอน"
+    },
+    "BrandSection":{
+        "A leading, trustworthy brand: ThaiBulkSMS":"แบรนด์ชั้นนำที่วางใจ ThaiBulkSMS",
+        "Quick sending, rapid receipt, and confidently stable transmissions using Intelligent Routing":"ส่งเร็ว ถึงไว มั่นใจได้ในความเสถียร ด้วยระบบ Intelligent Routing",
+        "3 direct networks can be used for sending":"ส่งผ่าน 3 เครือข่ายหลักโดยตรง",
+        "Messaging therefore proceeds quickly and with high stability. No bottlenecks occur because we have many channels available for transmission.":"การส่งจึงเป็นไปอย่างรวดเร็ว และมีความเสถียรสูง ไม่เกิดปัญหาคอขวดเพราะมีหลายช่องทางให้เลือกส่ง",
+        "Selecting a transmission channel that corresponds with the network of the recipient number":"เลือกช่องทางส่งที่ตรงกับ เครือข่ายของเบอร์ผู้รับ",
+        "We have a network inspection system for the number of the recipient, which filters SMS messages to be sent directly through that network, allowing quicker messaging.":"เรามีระบบตรวจสอบเครือข่ายของเบอร์ผู้รับและจะคัดแยก SMS ให้ส่งผ่านเครือข่ายนั้นโดยตรง ซึ่งจะส่งได้เร็วกว่า",
+        "Automatic selection of the best channel":"เลือกช่องทางส่งที่ดีที่สุดโดยอัตโนมัติ",
+        "If any channel experiences problems, the system is able to immediately shift messaging to other channels, in addition to having backup transmission systems.":"ถ้าหากช่องทางใดมีปัญหา ระบบจะสามารถย้ายการส่งไปยังช่องทางอื่นได้ทันที และยังมีระบบสำรองในการส่งอีกด้วย",
+        "Free messaging trial":"ทดลองส่งฟรี"
+    },
+    "PriceSection":{
+        "Focus on cheap prices or on full features can be selected according to your needs":"จะเน้นราคาถูก หรือได้ฟีเจอร์ครบก็เลือกได้ตามต้องการ",
+        "Standard Package":"Standard Package",
+        "Cheaper messaging prices":"ส่งข้อความราคาถูกกว่า",
+        "Viewable messaging reports":"ดูรายงานการส่งได้",
+        "Complete basic feature operations":"ใช้งานฟีเจอร์พื้นฐานได้ครบถ้วน",
+        "Campaign analysis tools":"มีเครื่องมือวัดผลแคมเปญ",
+        "The best SMS price is available at only":"ราคาถูกเพียง",
+        "baht / SMS":"บาท / SMS",
+        "Corporate Package":"Corporate Package",
+        "All the features of Standard SMS":"ทุกฟีเจอร์ของ Standard SMS",
+        "OTP messaging with a Ready-to-use system":"ส่ง OTP ด้วยระบบพร้อมใช้",
+        "Credit refunds if recipients are unable to receive the messages":"คืนเครดิตถ้าส่งไม่ถึงผู้รับ",
+        "More detailed messaging status checking":"เช็กสถานะการส่งได้ละเอียดยิ่งกว่า",
+        "Learn more":"เรียนรู้เพิ่มเติม",
+        "View Package Prices":"ดูราคาแพ็กเกจ"
+    },
+    "TrackSection":{
+        "Easily operated, no matter what category of User you are.":"ใช้งานง่าย ไม่ว่าคุณจะเป็น User แบบไหน",
+        "<span>For new users</span> who have yet to send SMS messages through the web.":"<span>มือใหม่</span> ไม่เคยส่ง SMS ผ่านเว็บมาก่อน",
+        "Sending SMS messages through ThaiBulkSMS is free from complications and does not require technical knowledge. If you are stuck with problems, there are many channels that are ready to assist.":"การส่ง SMS ผ่าน ThaiBulkSMS ไม่ซับซ้อนแม้ไม่รู้เรื่องเทคนิคก็ส่งได้ หากติดปัญหาก็มีหลายช่องทางที่พร้อมช่วยเหลือ",
+        "<span>For Marketers</span> who wish to analyze the effects of their SMS campaigns":"<span>Marketer</span> ที่อยากวัดผลแคมเปญ SMS",
+        "Results analysis tools and easily understandable reports are available, leading to future analyses on whether the campaign was successful.":"มีเครื่องมือวัดผลและรายงานที่เข้าใจง่าย ช่วยให้นำไปวิเคราะห์ต่อได้ว่า แคมเปญประสบความสำเร็จหรือไม่",
+        "<span>For Developers</span> who write programs that link with APIs":"<span>Developer</span> ที่ต้องเขียนโปรแกรมเชื่อมต่อ API",
+        "Easy to code programs that link with APIs; a variety of languages are supported, and a system that supports OTP sending is included.":"เขียนโปรแกรมเชื่อมต่อกับ API ได้ง่าย รองรับหลากหลายภาษา และยังมีระบบพร้อมใช้สำหรับการส่ง OTP",
+        "Try Sending Messages for Free":"ทดลองส่งฟรี",
+        "Included with support from a team of specialists":"พร้อมซัพพอร์ต โดยทีมงานผู้เชี่ยวชาญ",
+        "This creates confidence that if the system experiences problems, we can immediately fix the situation for you, regardless of whether it is a Hardware or Software issue.":"จึงทำให้มั่นใจได้ว่าหากระบบเกิดปัญหา ทางเราจะสามารถแก้ไขให้คุณได้อย่างทันท่วงที ไม่ว่าจะเป็นด้าน Hardware หรือ Software ก็ตาม",
+        "Safely preserve your data with Internet Banking standards.":"เก็บรักษาข้อมูลอย่างปลอดภัย ด้วยมาตรฐาน Internet Banking",
+        "With an SSL security system that has the highest standards used in various Internet Banking platforms, you can rest assured that your use of ThaiBulkSMS will receive the same level of safety as that of Internet Banking.":"ด้วยระบบรักษาความปลอดภัย SSL ที่เป็นมาตรฐานสูงสุดซึ่งใช้ใน Internet Banking ต่าง ๆ เพื่อให้มั่นใจได้ว่าเมื่อเข้าใช้งาน ThaiBulkSMS จะได้รับความปลอดภัยเหมือนใช้ Internet Banking"
+    },
+    "CtaSection":{
+        "Increase successes with SMS Marketing <br/>through Thailand’s number 1 SMS Provider.":"เพิ่มความสำเร็จให้ SMS Marketing<br/> ด้วย SMS Provider อันดับ 1 ของไทย",
+        "Try for free":"ทดลองใช้ฟรี",
+        "View Package Prices":"ดูราคาแพ็กเกจ"
+    },
+    "FaqSection":{
+        "Do you still have questions?":"ยังคงมีข้อสงสัย ?",
+        "Select your most convenient contact channel":"เลือกช่องทางติดต่อที่คุณสะดวก",
+        "Contact an officer":"ติดต่อเจ้าหน้าที่",
+        "The officer will contact you back":"เจ้าหน้าที่ติดต่อกลับ",
+        "Email":"อีเมล์"
+    }
+}

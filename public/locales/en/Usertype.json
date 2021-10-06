@@ -1,0 +1,8 @@
+{
+  "usertype": {
+    "title": "Enter details for placing the order",
+    "desc": "Select business registration type",
+    "personBtn": "Ordinary Person",
+    "corporationBtn": "Juristic Person"
+  }
+}

@@ -23,9 +23,9 @@ export async function sendContact(param: any) {
         }
 
         return { code: '', errorMessageText: '' };
-    } catch (error) {
+    } catch (error:any) {
         console.log('error : ', error.response);
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return errorData;

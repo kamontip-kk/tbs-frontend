@@ -8,10 +8,6 @@ import Link from 'next/dist/client/link';
 import appConfig from '../appConfig';
 import Cookie from 'js-cookie';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
-
 interface FormValue {
     email: string;
     phoneNumber: string;

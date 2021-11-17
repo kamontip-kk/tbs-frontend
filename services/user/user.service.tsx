@@ -78,9 +78,9 @@ export async function login(param: any): Promise<AuthLogin> {
             Cookie.set('PASSCODE', loginResponse.passcode, { expires: 0.15 });
         }
         return loginResponse;
-    } catch (error) {
+    } catch (error:any) {
         localStorage.setItem('TBS_token', JSON.stringify({}));
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return loginFail(errorData.code, errorData.errorMessageText);
@@ -203,9 +203,9 @@ export async function registerUser(param: any): Promise<Register> {
             JSON.stringify({ token: data.resendRegisterSMSToken })
         );
         return dataRegister;
-    } catch (error) {
+    } catch (error:any) {
         console.log('error : ', error.response);
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return { accID: '', data: {}, error: errorData };
@@ -240,13 +240,13 @@ export async function resendRegister() {
         return {
             error: { code: '', erromessagerText: '' },
         };
-    } catch (error) {
+    } catch (error:any) {
         // localStorage.setItem('TBS_token', JSON.stringify({}));
         console.log('error.response :', error.response);
         if (error.response.data.error.code === 'resendRegisterSMS.exceeded') {
             localStorage.removeItem('TBS_resendRegisterSMSToken');
         }
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return {
@@ -283,9 +283,9 @@ export async function quickRegisterStep1(
             error: { code: '', erromessagerText: '' },
         };
         return dataRegister;
-    } catch (error) {
+    } catch (error:any) {
         console.log('error : ', error.response);
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return { data: { msisdn: '' }, error: errorData };
@@ -334,9 +334,9 @@ export async function quickRegisterStep2(
             error: { code: '', erromessagerText: '' },
         };
         return dataRegister;
-    } catch (error) {
+    } catch (error:any) {
         console.log('error : ', error.response);
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return { welcome_token: '', data: {}, error: errorData };
@@ -372,9 +372,9 @@ export async function quickRegisterStep3(
             error: { code: '', erromessagerText: '' },
         };
         return dataRegister;
-    } catch (error) {
+    } catch (error:any) {
         console.log('error : ', error.response);
-        let errorData = error.response
+        let errorData:any = error.response
             ? error.response.data.error
             : { code: '400', errorMessageText: '' };
         return { data: {}, error: errorData };

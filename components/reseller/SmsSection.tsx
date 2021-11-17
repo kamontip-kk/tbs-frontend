@@ -5,9 +5,9 @@ import en from '../../public/locales/en/ResellerPage.json';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const SmsSectionV3 = () => {
     const router = useRouter();
     const { locale } = router;
@@ -35,7 +35,7 @@ const SmsSectionV3 = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img-reseller01.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-reseller01.png`} alt="Image" width={100} height={100}/>
                         </span>
                     </div>
                 </div>

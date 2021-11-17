@@ -5,9 +5,9 @@ import Link from 'next/link';
 // import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const FaqSection = () => {
     const router = useRouter();
     const { locale } = router;
@@ -39,7 +39,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="img_1.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_1.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <Link href="tel:027986000">
                                 <a className="btn v4">
@@ -56,7 +56,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="img_2.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_2.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <Link href="/contact/">
                                     <a className="btn v4">
@@ -73,7 +73,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="img_3.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_3.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <Link href="mailto:contact@thaibulksms.com">
                                 <a

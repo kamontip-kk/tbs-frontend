@@ -12,9 +12,9 @@ import appConfig from '../../appConfig';
 import { CheckFirstPurchase } from '../../services/shopping/payment.service';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 // import classnames from 'classnames';
 const classnames = require('classnames');
@@ -93,7 +93,7 @@ const showPackage = (
                                         alt=""
                                     /> */}
                                     <span>
-                                        <Image loader={myLoader} src="arrow_down.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/arrow_down.png`} alt="" width={100} height={100}/>
                                     </span>
                                 </div>
                                 {/* <img
@@ -102,7 +102,7 @@ const showPackage = (
                                     alt=""
                                 /> */}
                                 <span className="shape__box">
-                                    <Image loader={myLoader} src="shape_triangle.png" alt="" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/shape_triangle.png`} alt="" width={100} height={100}/>
                                 </span>
                                 <div className="row ribbon-container">
                                     <div className="col-lg-4 offset-lg-1 col-sm-5 text-center">
@@ -285,7 +285,7 @@ const showPackage = (
                                                 src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/extra-package.png`}
                                             ></img> */}
                                             <span>
-                                                <Image loader={myLoader} src="extra-package.png" alt="" width={100} height={100}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/extra-package.png`} alt="" width={100} height={100}/>
                                             </span>
                                             <div className="pack-text">
                                                 <p>

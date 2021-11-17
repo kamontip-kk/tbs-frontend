@@ -12,9 +12,9 @@ import { useRouter } from 'next/router';
 import th from '../../public/locales/th/CookiePolicy.json'
 import en from '../../public/locales/en/CookiePolicy.json'
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const Condition = () => {
     const router = useRouter();
     const { locale } = router;
@@ -59,7 +59,8 @@ const Condition = () => {
                     }
                 >
                     <HeroSection />
-                    <Image loader={myLoader} src="/img/bg_13.png" className="img-fluid shape__bottom lazyload" width={500} height={500} />
+                    {/* <Image loader={myLoader} src="/img/bg_13.png" className="img-fluid shape__bottom lazyload" width={500} height={500} /> */}
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/bg_13.png`} className="img-fluid shape__bottom lazyload" width={500} height={500} />
                     {/* <img
                         data-src="/img/bg_13.png"
                         className="img-fluid shape__bottom lazyload"

@@ -10,9 +10,9 @@ import { sendContact } from '../../services/contact/contact.service';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const menuClick = () => {
     var elDivnice = document.getElementsByClassName('devnice-select')[0];
@@ -164,7 +164,7 @@ const HeroSection = () => {
                                             alt=""
                                         /> */}
                                         <span className="img-fluid left__img">
-                                            <Image loader={myLoader} src="contact.png" alt="contact" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/contact.png`} alt="contact" width={100} height={100}/>
                                         </span>
                                     </a>
                                     </Link>
@@ -180,7 +180,7 @@ const HeroSection = () => {
                                                 alt=""
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="location.png" alt="location" width={100} height={100}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/location.png`} alt="location" width={100} height={100}/>
                                             </span>
                                             <p
                                                 dangerouslySetInnerHTML={{
@@ -195,7 +195,7 @@ const HeroSection = () => {
                                                 alt=""
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="call.png" alt="call" width={100} height={100}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/call.png`} alt="call" width={100} height={100}/>
                                             </span>
                                             <p>
                                                 <Link href="tel:027986000">
@@ -212,7 +212,7 @@ const HeroSection = () => {
                                                 alt=""
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="calendar.png" alt="calendar" width={100} height={100}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/calendar.png`} alt="calendar" width={100} height={100}/>
                                             </span>
                                             <p>
                                                 {t.HeroSection['0-2798-6099']}
@@ -225,7 +225,7 @@ const HeroSection = () => {
                                                 alt=""
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="mail_2.png" alt="mail_2" width={100} height={100}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/mail_2.png`} alt="mail_2" width={100} height={100}/>
                                             </span>
                                             <p>
                                                 <span>

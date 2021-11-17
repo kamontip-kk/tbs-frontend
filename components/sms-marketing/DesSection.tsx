@@ -4,9 +4,9 @@ import th from '../../public/locales/th/Sms-marketing.json';
 import en from '../../public/locales/en/Sms-marketing.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const SimpleIconSection = () => {
     const router = useRouter();
     const { locale } = router;
@@ -31,7 +31,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload col4">
-                            <Image loader={myLoader} src="icn-market01.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-market01.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col4">{t.DesSection.mardessec2}</p>
                     </div>
@@ -44,7 +44,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload col4">
-                            <Image loader={myLoader} src="icn-market02.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-market02.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col4">{t.DesSection.mardessec3}</p>
                     </div>
@@ -57,7 +57,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload col4">
-                            <Image loader={myLoader} src="icn-market03.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-market03.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col4">{t.DesSection.mardessec4}</p>
                     </div>
@@ -70,7 +70,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload col4">
-                            <Image loader={myLoader} src="icn-market04.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-market04.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col4">{t.DesSection.mardessec5}</p>
                     </div>

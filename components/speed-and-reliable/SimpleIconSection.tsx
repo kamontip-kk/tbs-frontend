@@ -3,9 +3,9 @@ import CountUp from 'react-countup';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const SimpleIconSection = () => {
   const [numStart, setnumStart] = useState(4662190879);
   const [numEnd, setnumEnd] = useState(0);
@@ -48,7 +48,7 @@ const SimpleIconSection = () => {
                 alt="Image"
               /> */}
               <span className="lazyload">
-                <Image loader={myLoader} src="img_15.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_15.png`} alt="Image" width={100} height={100}/>
               </span>
             </div>
           </div>
@@ -113,7 +113,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="logo-brand05.png" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand05.png`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
               <div className="imgBrand">
@@ -123,7 +123,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="logo-brand03.png" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand03.png`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
               <div className="imgBrand">
@@ -133,7 +133,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="logo-brand06.png" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand06.png`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
               <div className="imgBrand">
@@ -143,7 +143,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="logo-brand08.png" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand08.png`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
               <div className="imgBrand">
@@ -153,7 +153,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="logo-brand04.png" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand04.png`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>

@@ -5,9 +5,9 @@ import en from '../../public/locales/en/Sms-tracking.json';
 import Link from 'next/dist/client/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const SmsSectionV4 = () => {
     const router = useRouter();
     const { locale } = router;
@@ -37,7 +37,7 @@ const SmsSectionV4 = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img_21.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_21.png`} alt="Image" width={100} height={100}/>
                         </span>
                     </div>
                 </div>

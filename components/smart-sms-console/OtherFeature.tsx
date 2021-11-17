@@ -4,9 +4,9 @@ import th from '../../public/locales/th/SmartSmsConsole.json';
 import en from '../../public/locales/en/SmartSmsConsole.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const TrackSection = () => {
     const router = useRouter();
@@ -37,7 +37,7 @@ const TrackSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-bulkSMS04.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-bulkSMS04.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>
                                     {t.OtherFeature['Set a variety of messaging time periods']}
@@ -55,7 +55,7 @@ const TrackSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-bulkSMS05.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-bulkSMS05.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>{t.OtherFeature['Phonebook system']}</h4>
                                 <p>
@@ -71,7 +71,7 @@ const TrackSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-bulkSMS06.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-bulkSMS06.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>
                                     {t.OtherFeature['Near-empty credit warning notifications']}
@@ -91,7 +91,7 @@ const TrackSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-bulkSMS07.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-bulkSMS07.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>
                                     {t.OtherFeature['Messages of any length can be sent']}
@@ -109,7 +109,7 @@ const TrackSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-bulkSMS08.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-bulkSMS08.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>{t.OtherFeature['Blocklist system']}</h4>
                                 <p>

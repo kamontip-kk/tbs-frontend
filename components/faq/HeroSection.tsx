@@ -6,9 +6,9 @@ import en from '../../public/locales/en/FAQ.json';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const HeroSection = () => {
     const router = useRouter();
@@ -46,7 +46,7 @@ const HeroSection = () => {
                                         alt=""
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-question.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-question.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span>
                                         {t.HeroSection['General questions']}
@@ -70,7 +70,7 @@ const HeroSection = () => {
                                         alt=""
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-shopping.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-shopping.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span>
                                         {t.HeroSection['Purchasing and payment']}
@@ -94,7 +94,7 @@ const HeroSection = () => {
                                         alt=""
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-dev.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-dev.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span>
                                         {t.HeroSection['Technical problems']}

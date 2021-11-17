@@ -173,7 +173,7 @@ const LeadGenForm = (): React.Component | any => {
                                 alt="button close"
                             /> */}
                             <span>
-                                <Image loader={myLoader} src="btnCloseLead.svg" alt="button close" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/btnCloseLead.svg`} alt="button close" width={100} height={100}/>
                             </span>
                         </a>
                         </Link>
@@ -231,7 +231,7 @@ const LeadGenForm = (): React.Component | any => {
                                 alt="button close"
                             /> */}
                             <span>
-                                <Image loader={myLoader} src="btnCloseLead.svg" alt="button close" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/btnCloseLead.svg`} alt="button close" width={100} height={100}/>
                             </span>
                         </a>
                         </Link>

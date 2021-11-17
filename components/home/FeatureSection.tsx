@@ -5,9 +5,9 @@ import th from '../../public/locales/th/Home.json';
 import en from '../../public/locales/en/Home.json';
 // import PropTypes from 'prop-types';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const FeatureSection = () => {
     const router = useRouter();
@@ -36,7 +36,7 @@ const FeatureSection = () => {
                                 alt="Image"
                             /> */}
                             <span className="lazyload size-img">
-                                <Image loader={myLoader} src="img-WhyNum1.png" alt="icon1" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-WhyNum1.png`} alt="icon1" width={100} height={100}/>
                             </span>
                         </div>
                         <div className="single_feature_text">
@@ -54,7 +54,7 @@ const FeatureSection = () => {
                                 alt="Image"
                             /> */}
                             <span className="lazyload size-img">
-                                <Image loader={myLoader} src="img-speed02.png" alt="icon2" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-speed02.png`} alt="icon2" width={100} height={100}/>
                             </span>
                         </div>
                         <div className="single_feature_text">
@@ -72,7 +72,7 @@ const FeatureSection = () => {
                                 alt="Image"
                             /> */}
                             <span className="lazyload size-img">
-                                <Image loader={myLoader} src="img-lowPrice02.png" alt="icon3" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-lowPrice02.png`} alt="icon3" width={100} height={100}/>
                             </span>
                         </div>
                         <div className="single_feature_text">
@@ -90,7 +90,7 @@ const FeatureSection = () => {
                                 alt="Image"
                             /> */}
                             <span className="lazyload size-img">
-                                <Image loader={myLoader} src="img-whysupport.png" alt="icon4" width={100} height={100}/>
+                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-whysupport.png`} alt="icon4" width={100} height={100}/>
                             </span>
                         </div>
                         <div className="single_feature_text">

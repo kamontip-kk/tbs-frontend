@@ -4,9 +4,9 @@ import th from '../../public/locales/th/LocationBasedSMSPage.json';
 import en from '../../public/locales/en/LocationBasedSMSPage.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 
 const TrackSection = () => {
@@ -39,7 +39,7 @@ const TrackSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img-lbs02.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-lbs02.png`} alt="Image" width={100} height={100}/>
                         </span>
                     </div>
                 </div>
@@ -63,7 +63,7 @@ const TrackSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img-lbs03.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-lbs03.png`} alt="Image" width={100} height={100}/>
                         </span>
                     </div>
                 </div>

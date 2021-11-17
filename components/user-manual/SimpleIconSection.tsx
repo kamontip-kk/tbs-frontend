@@ -8,9 +8,9 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 interface thumbnailsType {
     url: string;
@@ -88,7 +88,7 @@ const SimpleIconSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="play-button.svg" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/play-button.svg`} alt="Image" width={100} height={100}/>
                                 </span>
                             </a>
                             </Link>
@@ -122,7 +122,7 @@ const SimpleIconSection = () => {
                                             alt="Image"
                                         /> */}
                                         <span className="lazyload">
-                                            <Image loader={myLoader} src="icn-aw-userManual02.svg" alt="Image" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-aw-userManual02.svg`} alt="Image" width={100} height={100}/>
                                         </span>
                                         <p>
                                             {/* {t(

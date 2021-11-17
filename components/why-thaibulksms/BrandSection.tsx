@@ -5,9 +5,9 @@ import Link from 'next/dist/client/link';
 // import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const WhyBrandSection = () => {
     const router = useRouter();
     const { locale } = router;
@@ -36,7 +36,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand01.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand01.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -48,7 +48,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand02.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand02.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand03.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand03.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand04.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand04.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -84,7 +84,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand05.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand05.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -96,7 +96,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand06.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand06.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand07.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand07.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -120,7 +120,7 @@ const WhyBrandSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="logo-brand08.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand08.png`} alt="Image" width={100} height={100}/>
                                 </span>
                             </div>
                         </div>
@@ -148,7 +148,7 @@ const WhyBrandSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload size-img-why">
-                            <Image loader={myLoader} src="icon-why01.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-why01.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <div className="single_feature_text">
                             <h4>
@@ -168,7 +168,7 @@ const WhyBrandSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload size-img-why">
-                            <Image loader={myLoader} src="icon-why02.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-why02.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <div className="single_feature_text">
                             <h4>
@@ -188,7 +188,7 @@ const WhyBrandSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload size-img-why">
-                            <Image loader={myLoader} src="icon-why03.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-why03.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <div className="single_feature_text">
                             <h4>

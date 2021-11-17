@@ -6,9 +6,9 @@ import Link from 'next/link';
 import * as React from 'react';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const FaqSection = () => {
     const router = useRouter();
@@ -39,7 +39,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icn-otp.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-otp.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>ส่งไว OTP ไม่ Delay</h4>
                                 <p>ส่งได้เร็วสูงสุด 24,000 SMS/นาที</p>
@@ -56,7 +56,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="img_12.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_12.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>มั่นใจว่า SMS ส่งถึงผู้รับ</h4>
                                 <p>
@@ -76,7 +76,7 @@ const FaqSection = () => {
                                     alt="Image"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="img_4.png" alt="Image" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_4.png`} alt="Image" width={100} height={100}/>
                                 </span>
                                 <h4>วัดผลการส่งได้แม่นยำ</h4>
                                 <p>เช็กสถานะได้ว่าลูกค้าเปิด SMS หรือยัง</p>
@@ -444,7 +444,7 @@ const FaqSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_1.png" alt="Image" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_1.png`} alt="Image" width={100} height={100}/>
                                     </span>
                                     <Link href="tel:027986000">
                                     <a className="btn v4">
@@ -461,7 +461,7 @@ const FaqSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_2.png" alt="Image" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_2.png`} alt="Image" width={100} height={100}/>
                                     </span>
                                     <Link href="/contact/">
                                         <a className="btn v4">
@@ -478,7 +478,7 @@ const FaqSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_3.png" alt="Image" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_3.png`} alt="Image" width={100} height={100}/>
                                     </span>
                                     <span className="btn v4">
                                         {t.FaqSection['E-mail']}

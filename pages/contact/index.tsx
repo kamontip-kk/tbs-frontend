@@ -13,9 +13,9 @@ import { useRouter } from 'next/router';
 import th from '../../public/locales/th/Contact.json'
 import en from '../../public/locales/en/Contact.json'
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const Contact = () => {
     const router = useRouter();
@@ -60,7 +60,8 @@ const Contact = () => {
                 }}
             >
                 <HeroSection />
-                <Image loader={myLoader} src="bg_13.png" className="img-fluid shape__bottom lazyload" width={20} height={20}/>
+                {/* <Image loader={myLoader} src="bg_13.png" className="img-fluid shape__bottom lazyload" width={20} height={20}/> */}
+                <Image src= {`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/bg_13.png`} className="img-fluid shape__bottom lazyload" width={20} height={20}/>
                 {/* <img
                     data-src="/img/bg_13.png"
                     className="img-fluid shape__bottom lazyload"

@@ -6,9 +6,9 @@ import * as React from 'react';
 import Link from 'next/dist/client/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const classnames = require('classnames');
 
@@ -63,7 +63,7 @@ const HeroSection = ({ defaultTab, setDefaultTab }: any) => {
                                         alt=""
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="main_3.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/main_3.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span>
                                         {t.HeroSection['Follow these steps to place an order']}
@@ -94,7 +94,7 @@ const HeroSection = ({ defaultTab, setDefaultTab }: any) => {
                                         alt=""
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="dollar.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/dollar.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span>
                                         {t.HeroSection['Payment methods']}

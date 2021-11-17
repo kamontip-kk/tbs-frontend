@@ -4,9 +4,9 @@
 // import en from '../../public/locales/th/Otp.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const SmsSectionV3 = () => {
     // const router = useRouter();
@@ -40,7 +40,7 @@ const SmsSectionV3 = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img-message.png" alt="img-message" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-message.png`} alt="img-message" width={100} height={100}/>
                         </span>
                     </div>
                 </div>

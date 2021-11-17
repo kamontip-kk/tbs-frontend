@@ -10,9 +10,9 @@ const OwlCarousel = dynamic(import('react-owl-carousel'), {
     ssr: false,
 });
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const PartnerSection = () => {
 
@@ -67,7 +67,7 @@ const PartnerSection = () => {
                                     height="120"
                                 /> */}
                                 <span className="lazyload size-img">
-                                    <Image loader={myLoader} src="partner_logo_1.png" alt="partnerlogo1" width={175} height={155}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_1.png`} alt="partnerlogo1" width={175} height={155}/>
                                 </span>
                             </div>
                         </div>
@@ -81,7 +81,7 @@ const PartnerSection = () => {
                                     height="120"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="partner_logo_2.png" alt="partnerlogo2" width={175} height={155}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_2.png`} alt="partnerlogo2" width={175} height={155}/>
                                 </span>
                             </div>
                         </div>
@@ -95,7 +95,7 @@ const PartnerSection = () => {
                                     height="120"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="partner_logo_3.png" alt="partnerlogo3" width={175} height={155}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_3.png`} alt="partnerlogo3" width={175} height={155}/>
                                 </span>
                             </div>
                         </div>
@@ -109,7 +109,7 @@ const PartnerSection = () => {
                                     height="120"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="partner_logo_4.png" alt="partnerlogo4" width={175} height={155}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_4.png`} alt="partnerlogo4" width={175} height={155}/>
                                 </span>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ const PartnerSection = () => {
                                     height="120"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="partner_logo_5.png" alt="partnerlogo5" width={175} height={155}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/partner_logo_5.png`} alt="partnerlogo5" width={175} height={155}/>
                                 </span>
                             </div>
                         </div>

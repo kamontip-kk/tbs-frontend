@@ -11,9 +11,9 @@ import { useRouter } from 'next/router';
 import th from '../../public/locales/th/Condition.json'
 import en from '../../public/locales/en/Condition.json'
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const Condition = () => {
     const router = useRouter();
@@ -52,7 +52,8 @@ const Condition = () => {
                     }}
                 >
                     <HeroSection />
-                    <Image loader={myLoader} src="bg_13.png" className="img-fluid shape__bottom lazyload" width={1000} height={500} />
+                    {/* <Image loader={myLoader} src="bg_13.png" className="img-fluid shape__bottom lazyload" width={1000} height={500} /> */}
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/bg_13.png`} className="img-fluid shape__bottom lazyload" width={1000} height={500} />
                     <Help />
                 </div>
             </div>

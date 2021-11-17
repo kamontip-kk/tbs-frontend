@@ -5,9 +5,9 @@ import en from '../../public/locales/en/Otp.json';
 import Link from 'next/dist/client/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const TrackSection = () => {
     const router = useRouter();
@@ -41,7 +41,7 @@ const TrackSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img_22.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_22.png`} alt="Image" width={100} height={100}/>
                         </span>
                     </div>
                 </div>

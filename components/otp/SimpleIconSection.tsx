@@ -5,9 +5,9 @@ import en from '../../public/locales/en/Otp.json';
 import Image from 'next/image';
 import Link from 'next/dist/client/link';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const SimpleIconSection = () => {
   const router = useRouter();
@@ -36,7 +36,7 @@ const SimpleIconSection = () => {
                 alt="Image"
               /> */}
               <span className="lazyload">
-                <Image loader={myLoader} src="check_icon.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/check_icon.png`} alt="Image" width={100} height={100}/>
               </span>
             </div>
             <div className="check_text">
@@ -55,7 +55,7 @@ const SimpleIconSection = () => {
                 alt="Image"
               /> */}
               <span className="lazyload">
-                <Image loader={myLoader} src="check_icon.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/check_icon.png`} alt="Image" width={100} height={100}/>
               </span>
             </div>
             <div className="check_text">
@@ -74,7 +74,7 @@ const SimpleIconSection = () => {
                 alt="Image"
               /> */}
               <span className="lazyload">
-                <Image loader={myLoader} src="check_icon.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/check_icon.png`} alt="Image" width={100} height={100}/>
               </span>
             </div>
             <div className="check_text">
@@ -93,7 +93,7 @@ const SimpleIconSection = () => {
                 alt="Image"
               /> */}
               <span className="lazyload">
-                <Image loader={myLoader} src="check_icon.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/check_icon.png`} alt="Image" width={100} height={100}/>
               </span>
             </div>
             <div className="check_text">
@@ -124,7 +124,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icn-api01.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api01.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -145,7 +145,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icn-api03.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api03.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -175,7 +175,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icn-api05.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-lang05.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -205,7 +205,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icn-api07.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api07.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -217,7 +217,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icon-langGO.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-langGO.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -229,7 +229,7 @@ const SimpleIconSection = () => {
                   alt="Image"
                 /> */}
                 <span className="lazyload">
-                  <Image loader={myLoader} src="icon-lang11.svg" alt="Image" width={100} height={100}/>
+                  <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-lang11.svg`} alt="Image" width={100} height={100}/>
                 </span>
               </div>
             </div>
@@ -245,7 +245,7 @@ const SimpleIconSection = () => {
               alt="Image"
             /> */}
             <span className="lazyload">
-              <Image loader={myLoader} src="arrow_5.png" alt="Image" width={100} height={100}/>
+              <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/arrow_5.png`} alt="Image" width={100} height={100}/>
             </span>
           </a>
           </Link>

@@ -5,9 +5,9 @@ import en from '../../public/locales/en/Pricing.json';
 import * as React from 'react';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const PricingSection = () => {
     const router = useRouter();
@@ -159,7 +159,7 @@ const PricingSection = () => {
                 alt=""
             /> */}
             <span className="img-fluid bg__img img__1 lazyload">
-                <Image loader={myLoader} src="img_25.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_25.png`} alt="Image" width={100} height={100}/>
             </span>
             {/* <img
                 className="img-fluid bg__img img__2 lazyload"
@@ -167,7 +167,7 @@ const PricingSection = () => {
                 alt=""
             /> */}
             <span className="img-fluid bg__img img__2 lazyload">
-                <Image loader={myLoader} src="/img__11.png" alt="Image" width={100} height={100}/>
+                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img__11.png`} alt="Image" width={100} height={100}/>
             </span>
         </div>
     );

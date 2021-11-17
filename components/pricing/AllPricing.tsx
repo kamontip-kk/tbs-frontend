@@ -13,9 +13,9 @@ import { decodeTBSToken } from '../../services/user/user.service';
 import Link from 'next/dist/client/link';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 // import classnames from 'classnames';
 const classnames = require('classnames');
@@ -115,7 +115,7 @@ const showPackage = (packages: Product[]) => {
                                         alt=""
                                     /> */}
                                     <span>
-                                        <Image loader={myLoader} src="arrow_down.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/arrow_down.png`} alt="" width={100} height={100}/>
                                     </span>
                                 </div>
                                 {/* <img
@@ -124,7 +124,7 @@ const showPackage = (packages: Product[]) => {
                                     alt=""
                                 /> */}
                                 <span className="shape__box">
-                                    <Image loader={myLoader} src="shape_triangle.png" alt="" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/shape_triangle.png`} alt="" width={100} height={100}/>
                                 </span>
                                 <div className="row">
                                     <div className="col-sm-6 text-center">

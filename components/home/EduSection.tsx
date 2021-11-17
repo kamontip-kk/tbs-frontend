@@ -6,9 +6,9 @@ import { useRouter } from 'next/router'
 import th from '../../public/locales/th/Home.json';
 import en from '../../public/locales/th/Home.json';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const EduSection = () => {
     const router = useRouter();
@@ -46,7 +46,7 @@ const EduSection = () => {
                                         height="229"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_7.png" alt="edu1" width={280} height={245}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_7.png`} alt="edu1" width={280} height={245}/>
                                     </span>
                                     <div className="edu_box_text">
                                         <p>
@@ -75,7 +75,7 @@ const EduSection = () => {
                                                 height="229"
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="img_8.png" alt="edu8" width={280} height={245}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_8.png`} alt="edu8" width={280} height={245}/>
                                             </span>
                                             <div className="edu_box_text">
                                                 <p>
@@ -102,7 +102,7 @@ const EduSection = () => {
                                                 height="229"
                                             /> */}
                                             <span className="lazyload">
-                                                <Image loader={myLoader} src="img_9.png" alt="edu9" width={280} height={245}/>
+                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_9.png`} alt="edu9" width={280} height={245}/>
                                             </span>
                                             <div className="edu_box_text">
                                                 <p>

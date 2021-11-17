@@ -1,9 +1,9 @@
 // import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const SimpleIconSection = ({  }: any) => (
   <div className="simple_icon_section bg-speed">
@@ -57,7 +57,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand05.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand05.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -67,7 +67,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand03.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand03.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -77,7 +77,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand06.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand06.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -87,7 +87,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand08.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand08.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -97,7 +97,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand04.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand04.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -107,7 +107,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand01.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand01.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -117,7 +117,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand02.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand02.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
             <div className="imgBrand">
@@ -127,7 +127,7 @@ const SimpleIconSection = ({  }: any) => (
                     alt="Image"
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="logo-brand07.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/logo-brand07.png`} alt="Image" width={100} height={100}/>
                 </span>
             </div>
           </div>

@@ -10,9 +10,9 @@ import en from '../../public/locales/en/Resource.json';
 import AppConfig from '../../appConfig';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 // Import Swiper styles
 
 SwiperCore.use([Navigation, Pagination, A11y, Autoplay]);
@@ -67,12 +67,8 @@ const ContentSection = ({ Posts }: any) => {
                                                                 alt={item.name}
                                                             /> */}
                                                             <span>
-                                                                <Image loader={myLoader} 
-                                                                src={
-                                                                    item
-                                                                        .banner_image_top
-                                                                        .url
-                                                                }
+                                                                <Image
+                                                                src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${item.banner_image_top.url}`}
                                                                 alt={item.name}
                                                                 width={100} height={100}/>
                                                             </span>

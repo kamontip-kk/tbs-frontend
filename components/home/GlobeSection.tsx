@@ -6,9 +6,9 @@ import th from '../../public/locales/th/Home.json';
 import en from '../../public/locales/en/Home.json';
 // import PropTypes from 'prop-types';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src, width, quality}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}?w=${width}&q=${quality || 75}`
+// }
 
 const GlobeSection = () => {
     const router = useRouter();
@@ -44,7 +44,7 @@ const GlobeSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="img_10.png" alt="globeimg" width={500} height={500}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_10.png`} alt="globeimg" width={500} height={500}/>
                         </span>
                     </div>
                 </div>

@@ -5,9 +5,9 @@ import en from '../../public/locales/en/Developer.json';
 import Image from 'next/image';
 import Link from 'next/dist/client/link';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const SimpleIconSection = () => {
     const router = useRouter();
@@ -35,7 +35,7 @@ const SimpleIconSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-aw-api01.png" alt="icn-aw-api01" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-aw-api01.png`} alt="icn-aw-api01" width={100} height={100}/>
                                     </span>
                                     <p>
                                         {/* {t(
@@ -61,7 +61,7 @@ const SimpleIconSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-aw-api02.png" alt="icn-aw-api02" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-aw-api02.png`} alt="icn-aw-api02" width={100} height={100}/>
                                     </span>
                                     <p>
                                         {/* {t(
@@ -96,7 +96,7 @@ const SimpleIconSection = () => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="icn-aw-api01.png" alt="icn-aw-api01" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-aw-api01.png`} alt="icn-aw-api01" width={100} height={100}/>
                                     </span>
                                     <p>OTP Service Manual</p>
                                     <h4>
@@ -147,7 +147,7 @@ const SimpleIconSection = () => {
                                     alt="php"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icn-api01.svg" alt="php" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api01.svg`} alt="php" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-PHP.zip`}>
                                 <a className="lang_link" target="_blank">
@@ -164,7 +164,7 @@ const SimpleIconSection = () => {
                                     alt="nodejs"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icn-api03.svg" alt="nodejs" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api03.svg`} alt="nodejs" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-Nodejs.zip`}>
                                 <a className="lang_link" target="_blank">
@@ -229,7 +229,7 @@ const SimpleIconSection = () => {
                                     alt="c#"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icon-lang05.svg" alt="c#" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-lang05.svg`} alt="c#" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-CShap.zip`}>
                                 <a className="lang_link" target="_blank">
@@ -294,7 +294,7 @@ const SimpleIconSection = () => {
                                     alt="python"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icn-api07.svg" alt="python" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-api07.svg`} alt="python" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-Python.zip`}>
                                 <a className="lang_link" target="_blank">
@@ -327,7 +327,7 @@ const SimpleIconSection = () => {
                                     alt="golang"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icon-langGO.svg" alt="golang" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-langGO.svg`} alt="golang" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-Go-lang.zip`}>
                                 <a className="lang_link" target="_blank">
@@ -344,7 +344,7 @@ const SimpleIconSection = () => {
                                     alt="java"
                                 /> */}
                                 <span className="lazyload">
-                                    <Image loader={myLoader} src="icon-lang11.svg" alt="java" width={100} height={100}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon-lang11.svg`} alt="java" width={100} height={100}/>
                                 </span>
                                 <Link href={`${process.env.NEXT_PUBLIC_BASE_ASSET}/documents/ExampleCode-Java.zip`}>
                                 <a className="lang_link" target="_blank">

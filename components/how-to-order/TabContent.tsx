@@ -9,9 +9,9 @@ import th from '../../public/locales/th/How-to-order.json';
 import en from '../../public/locales/en/How-to-order.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const classnames = require('classnames');
 const TabContent = ({ defaultTab, setDefaultTab }: any) => {
@@ -81,7 +81,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o1.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o1.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -118,7 +118,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o2.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o2.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -146,7 +146,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o3.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o3.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -190,7 +190,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o4.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o4.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -218,7 +218,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o5.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o5.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -246,7 +246,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                     alt=""
                                                 /> */}
                                                 <span className="img-fluid lazyload">
-                                                    <Image loader={myLoader} src="o6.png" alt="" width={100} height={100}/>
+                                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/o6.png`} alt="" width={100} height={100}/>
                                                 </span>
                                             </div>
                                             <div className="serial__content">
@@ -293,7 +293,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                         alt=""
                                                                     /> */}
                                                                     <span className="lazyload">
-                                                                        <Image loader={myLoader} src="icon_13.png" alt="" width={100} height={100}/>
+                                                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_13.png`} alt="" width={100} height={100}/>
                                                                     </span>
                                                                 </div>
                                                                 <h5
@@ -335,7 +335,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                         alt=""
                                                                     /> */}
                                                                     <span className="lazyload">
-                                                                        <Image loader={myLoader} src="icon_24_1.png" alt="" width={100} height={100}/>
+                                                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_24_1.png`} alt="" width={100} height={100}/>
                                                                     </span>
                                                                 </div>
                                                                 <h5>
@@ -389,7 +389,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                         alt=""
                                                                     /> */}
                                                                     <span className="lazyload">
-                                                                        <Image loader={myLoader} src="icon_25_1.png" alt="" width={100} height={100}/>
+                                                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_25_1.png`} alt="" width={100} height={100}/>
                                                                     </span>
                                                                 </div>
                                                                 <h5 className="mt-4">
@@ -438,7 +438,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                                     marginRight:
                                                                                         '20px'
                                                                                 }}>
-                                                                                <Image loader={myLoader} src="img__1.png" alt="" width={100} height={100}/>
+                                                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img__1.png`} alt="" width={100} height={100}/>
                                                                             </span>
 
                                                                             <div className="textBankHow">
@@ -609,7 +609,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                                     marginRight:
                                                                                         '20px'
                                                                                 }}>
-                                                                                <Image loader={myLoader} src="img__3.png" alt="" width={100} height={100}/>
+                                                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img__3.png`} alt="" width={100} height={100}/>
                                                                             </span>
 
 
@@ -710,7 +710,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                                                                 marginRight:
                                                                                     '20px'
                                                                                 }}>
-                                                                                <Image loader={myLoader} src="img__4.png" alt="" width={100} height={100}/>
+                                                                                <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img__4.png`} alt="" width={100} height={100}/>
                                                                             </span>
 
                                                                             <div className="textBankHow">
@@ -829,7 +829,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_1.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_1.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <Link href="tel:027986000">
                                     <a className="btn v4">
@@ -846,7 +846,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_2.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_2.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <Link href="/contact/">
                                         <a className="btn v4">
@@ -863,7 +863,7 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                         alt="Image"
                                     /> */}
                                     <span className="lazyload">
-                                        <Image loader={myLoader} src="img_3.png" alt="" width={100} height={100}/>
+                                        <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img_3.png`} alt="" width={100} height={100}/>
                                     </span>
                                     <span className="btn v4">
                                         {t.TabContent['E-mail']}
@@ -908,11 +908,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_20.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_20.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_20.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_20.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['1. Transfer the required amount to the specified bank account.']}
@@ -922,11 +922,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_21.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_21.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_21.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_21.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['2. Notify us of the payment via the system.']}
@@ -936,11 +936,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_22.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_22.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_22.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_22.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4
                                             dangerouslySetInnerHTML={{
@@ -956,11 +956,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_23.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_23.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_23.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_23.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4
                                             dangerouslySetInnerHTML={{
@@ -990,11 +990,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_15.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_15.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_15.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_15.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4
                                             dangerouslySetInnerHTML={{
@@ -1010,11 +1010,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_16.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_16.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_16.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_16.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['2. Use your phone to scan the QR code on the screen.']}
@@ -1024,11 +1024,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_17.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_17.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_17.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_17.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['3. Or you can choose to save the QR code as an image and upload it in the bank’s application to pay.']}
@@ -1038,11 +1038,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_18.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_18.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_18.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_18.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['4. Check that all the details are correct, then confirm the payment.']}
@@ -1052,11 +1052,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_19.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_19.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_19.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_19.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['5. After the payment is completed, the system will update your status automatically. You can now use the newly purchased credits to send SMS.']}
@@ -1082,11 +1082,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_26.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_26.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_26.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_26.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4
                                             dangerouslySetInnerHTML={{
@@ -1098,11 +1098,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_27.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_27.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_27.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_27.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['2. Check the price and enter your credit card details.']}
@@ -1112,11 +1112,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_28.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_28.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_28.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_28.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['3. Enter OTP for identity verification, then click confirm.']}
@@ -1126,11 +1126,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_29.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_29.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_96.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_96.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4
                                             dangerouslySetInnerHTML={{
@@ -1142,11 +1142,11 @@ const TabContent = ({ defaultTab, setDefaultTab }: any) => {
                                     <div className="d-flex align-items-center item__box">
                                         {/* <img
                                             className="img-fluid lazyload"
-                                            data-src="/img/icon_30.png"
+                                            data-src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img//img/icon_30.png`}
                                             alt=""
                                         /> */}
                                         <span className="img-fluid lazyload">
-                                            <Image loader={myLoader} src="icon_30.png" alt="" width={100} height={100}/>
+                                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_30.png`} alt="" width={100} height={100}/>
                                         </span>
                                         <h4>
                                             {t.TabContent['5. You can use the new credit to send an SMS now.']}

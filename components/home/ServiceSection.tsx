@@ -6,9 +6,9 @@ import th from '../../public/locales/th/Home.json';
 import en from '../../public/locales/en/Home.json';
 // import PropTypes from 'prop-types';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const FeatureSection = () => {
 
@@ -33,7 +33,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice01.svg" alt="service1" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice01.svg`} alt="service1" width={320} height={320}/>
                                 </div>
                                 <h3>Smart SMS Console</h3>
                                 <p>{t.ServiceSection.homeservice1}</p>
@@ -50,7 +50,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice02.svg" alt="service2" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice02.svg`} alt="service2" width={320} height={320}/>
                                 </div>
                                 <h3>SMS API</h3>
                                 <p>{t.ServiceSection.homeservice2}</p>
@@ -67,7 +67,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice03.svg" alt="service3" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice03.svg`} alt="service3" width={320} height={320}/>
                                 </div>
                                 <h3>OTP Service</h3>
                                 <p>{t.ServiceSection.homeservice3}</p>
@@ -84,7 +84,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice04.svg" alt="service4" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice04.svg`} alt="service4" width={320} height={320}/>
                                 </div>
                                 <h3>SMS Tracking</h3>
                                 <p>{t.ServiceSection.homeservice4}</p>
@@ -101,7 +101,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice05.svg" alt="service5" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice05.svg`} alt="service5" width={320} height={320}/>
                                 </div>
                                 <h3>Global SMS</h3>
                                 <p>{t.ServiceSection.homeservice5}</p>
@@ -118,7 +118,7 @@ const FeatureSection = () => {
                                     height="80"
                                 /> */}
                                 <div className="lazyload size-img">
-                                    <Image loader={myLoader} src="icn-Hservice06.svg" alt="service6" width={320} height={320}/>
+                                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-Hservice06.svg`} alt="service6" width={320} height={320}/>
                                 </div>
                                 <h3>Location Based SMS</h3>
                                 <p>{t.ServiceSection.homeservice6}</p>
@@ -140,7 +140,7 @@ const FeatureSection = () => {
                             height="80"
                         /> */}
                         <div className="lazyload">
-                            <Image loader={myLoader} src="img-Hservice.svg" alt="img-Hservice" width={480} height={480}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/img-Hservice.svg`} alt="img-Hservice" width={480} height={480}/>
                         </div>
                     </div>
                 </div>

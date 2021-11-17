@@ -5,9 +5,9 @@ import en from '../public/locales/en/Help.json';
 // import PropTypes from 'prop-types';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 
 const Help = () => {
     const router = useRouter();
@@ -24,7 +24,7 @@ const Help = () => {
                     alt=""
                 /> */}
                 <span className="lazyload">
-                    <Image loader={myLoader} src="icon_14.png" alt="Image" width={100} height={100}/>
+                    <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icon_14.png`} alt="Image" width={100} height={100}/>
                 </span>
             </span>
             <p dangerouslySetInnerHTML={{ __html: t.help.lable}}></p>

@@ -4,9 +4,9 @@ import th from '../../public/locales/th/Sms-alert.json';
 import en from '../../public/locales/en/Sms-alert.json';
 import Image from 'next/image';
 
-const myLoader = ({src}:any) => {
-    return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
-}
+// const myLoader = ({src}:any) => {
+//     return `${process.env.NEXT_PUBLIC_BASE_ASSET}/img/${src}`
+// }
 const SimpleIconSection = () => {
     const router = useRouter();
     const { locale } = router;
@@ -31,7 +31,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert01.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert01.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec2}</p>
                     </div>
@@ -44,7 +44,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert02.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert02.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec3}</p>
                     </div>
@@ -57,7 +57,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert03.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert03.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec4}</p>
                     </div>
@@ -70,7 +70,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert04.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert04.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec5}</p>
                     </div>
@@ -83,7 +83,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert05.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert05.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec6}</p>
                     </div>
@@ -96,7 +96,7 @@ const SimpleIconSection = () => {
                             alt="Image"
                         /> */}
                         <span className="lazyload">
-                            <Image loader={myLoader} src="icn-alert06.png" alt="Image" width={100} height={100}/>
+                            <Image src={`${process.env.NEXT_PUBLIC_BASE_ASSET}/img/icn-alert06.png`} alt="Image" width={100} height={100}/>
                         </span>
                         <p className="col6">{t.DesSection.dessec7}</p>
                     </div>
